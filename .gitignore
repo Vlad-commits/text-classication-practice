@@ -10,6 +10,7 @@ __py
 /report/*.toc
 /report/*.pdth
 /report/*.bbl
+/report/*.aux
 /report/*.bfc
 /report/*.blg
 /report/*.run.xml
