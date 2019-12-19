@@ -5,4 +5,10 @@ __py
 #old generated tex stuff
 /plots
 /tables
-/report/report.log
+/report/*.log
+/report/*.out
+/report/*.toc
+/report/*.pdth
+/report/*.bbl
+/report/*.bfc
+/report/*.blg
