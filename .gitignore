@@ -12,3 +12,4 @@ __py
 /report/*.bbl
 /report/*.bfc
 /report/*.blg
+/report/*.run.xml
