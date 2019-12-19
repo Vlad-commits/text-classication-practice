@@ -1,0 +1,554 @@
+\documentclass[%
+bachelor,    % тип документа
+%natbib,      % использовать пакет natbib для "сжатия" цитирований
+subf,        % использовать пакет subcaption для вложенной нумерации рисунков
+href,        % использовать пакет hyperref для создания гиперссылок
+colorlinks,  % цветные гиперссылки
+%fixint,     % включить прямые знаки интегралов
+]{disser}
+
+\usepackage[
+  a4paper, mag=1000,
+  left=2.5cm, right=1cm, top=2cm, bottom=2cm, headsep=0.7cm, footskip=1cm
+]{geometry}
+
+
+\usepackage[intlimits]{amsmath}
+\usepackage{amssymb,amsfonts}
+
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{pgf}
+\usepackage[english,russian]{babel}
+\ifpdf\usepackage{epstopdf}\fi
+\usepackage[autostyle]{csquotes}
+
+% Шрифт Times в тексте как основной
+%\usepackage{tempora}
+% альтернативный пакет из дистрибутива TeX Live
+%\usepackage{cyrtimes}
+
+% Шрифт Times в формулах как основной
+%\usepackage[varg,cmbraces,cmintegrals]{newtxmath}
+% альтернативный пакет
+%\usepackage[subscriptcorrection,nofontinfo]{mtpro2}
+
+\usepackage[%
+  style=gost-numeric,
+  backend=biber,
+  language=auto,
+  hyperref=auto,
+  autolang=other,
+  sorting=none
+]{biblatex}
+
+\addbibresource{report.bib}
+
+% Плавающие рисунки "в оборку".
+\usepackage{wrapfig}
+
+% Номера страниц снизу и по центру
+%\pagestyle{footcenter}
+%\chapterpagestyle{footcenter}
+
+% Точка с запятой в качестве разделителя между номерами цитирований
+%\setcitestyle{semicolon}
+
+% Точка с запятой в качестве разделителя между номерами цитирований
+%\setcitestyle{semicolon}
+
+% plots fixes
+%\usepackage{graphicx}
+%\usepackage{epstopdf}
+%\usepackage{pgfplots}
+%\usepackage{tikz}
+%\usepgfplotslibrary{external} 
+%\usetikzlibrary{external}
+%\tikzexternalize
+
+% Использовать полужирное начертание для векторов
+\let\vec=\mathbf
+
+% Включать подсекции в оглавление
+\setcounter{tocdepth}{2}
+
+\graphicspath{{fig/}}
+
+\DeclareMathOperator*{\argmin}{argmin}
+\DeclareMathOperator*{\argmax}{argmax}
+
+
+\usepackage{amsthm}
+
+\begin{document}
+
+% Переопределение стандартных заголовков
+%\def\contentsname{Содержание}
+%\def\conclusionname{Выводы}
+%\def\bibname{Литература}
+
+%
+% Титульный лист на русском языке
+%
+
+\institution{Санкт-Петербургский государственный университет}
+
+
+\title{Отчет по научно-исследовательской работе}
+
+\topic{Классификация текстов}
+
+% Автор
+\author{Мамаев Владислав Викторович}
+% Группа
+\group{222}
+% Номер специальности
+\coursenum{010400 (01.03.02)}
+% Название специальности
+\course{Прикладная математика и информатика}
+
+% Научный руководитель
+\sa      {Голяндина Нина Эдуардовна}
+\sastatus{к.~ф.-м.~н, доцент}
+% Город и год
+\city{Санкт-Петербург}
+\date{\number\year}
+
+\maketitle
+
+%%
+%% Titlepage in English
+%%
+%
+%\institution{Name of Organization}
+%
+%% Approved by
+%\apname{Professor S.\,S.~Sidorov}
+%
+%\title{Bachelor's Thesis}
+%
+%% Topic
+%\topic{Dummy Title}
+%
+%% Author
+%\author{Author's Name} % Full Name
+%\course{Physics} % Specialization
+%
+%\group{} % Study Group
+%
+%% Scientific Advisor
+%\sa       {I.\,I.~Ivanov}
+%\sastatus {Professor}
+%
+%% Reviewer
+%\rev      {P.\,P.~Petrov}
+%\revstatus{Associate Professor}
+%
+%% Consultant
+%\con{}
+%\conspec{}
+%\constatus{}
+%
+%% City & Year
+%\city{Saint Petersburg}
+%\date{\number\year}
+%
+%\maketitle[en]
+
+% Содержание
+\tableofcontents
+
+
+\section{Введение}
+Цель работы --- познакомиться с методами машинного обучения на примере задачи классификации текстов.\\
+Задачи:
+\begin{itemize}
+\item Описать и реализовать алгоритм, который будет различать тексты двух авторов на основе двух признаков.
+\item Описать и реализовать алгоритм получения двух наиболее подходящих для применения предыдущего алгоритма признаков из большого числа признаков.
+\end{itemize}
+\section{Основная часть}
+\subsection{Постановка задачи обучения с учителем}
+Сформулируем задачу машинного обучения с учителем:\\
+$X$ - множество описаний некоторых объектов, ``описания объектов`` будем отожествлять с \textit{объектами}, подразумевая преставление объектов в виде элементов множества $X$. В дальнейшем в качестве объектов будем рассматривать $\vec{x} \in \mathbb{R}^m$ --- $m$-мерные вещественные векторы.\\
+Предполагается, что существует \textit{целевая зависимость} — отображение $$y^{*}:\: X\to Y$$ в некторое множество ответов $Y,$ и значения этого отображения на некотором конечном множестве известны.\\
+$X^n = \{ \vec{x}_i \}_{i=1}^n$ --- объекты для которых известны значения целевой функции. $Y^n = \{y_i = y^{*}(\vec{x}_i), \vec{x}_i \in X^n \}_{i=1}^n$ --- известные значения функции $y^{*}$ на этих объектах.\\
+$T^n=\{(\vec{x}_i,y_i)\}_{i=1}^n$ --- набор пар ``объект - ответ`` будем называть \textit{обучающей выборкой}.\\
+В задаче классификации в качестве множества ответов $Y$ выступает некоторое конечное множетво, определяющее принадлежность объекта классу. Далее будем рассматривать задачу бинарной классификации: $|Y|=2$ и кодировать принадлежность классам \textit{метками} $Y=\{-1,1\}.$ Обозначим:
+$$C_1 = \{\vec{x}_i \in X^n : y_i = 1\}$$
+$$C_2 = \{\vec{x}_i \in X^n :y_i = -1\},$$
+объекты выборки принадлежащие первому и второму классу соответственно.
+Задача обучения заключается в построении \textit{алгоритма} или \textit{решающей функции}  $a(\vec{x}): X \to Y$, который приблежает целевую зависимость $y^{*}$.\cite{supervised_learning}
+
+\subsection{Сведение задачи к задаче оптимизации}
+Одним из подходов к построению $a(x)$ является метод \textit{минимизации эмпирического риска.} Для построенения алгоритма рассматривается: $$A = \{a(\vec{x})\}$$ --- \textit{модель алгоритмов}, некоторое семейство функций, вводится 
+\begin{equation}\label{def:loss_function}
+L(y,y'): Y^2\to \mathbb{R_+}
+\end{equation} 
+--- \textit{функция потерь}, некоторая функция характеризующая величину отклонения ответа $y=a(\vec{x})$ от правильного ответа $y'=y^{*}(\vec{x})$ на произвольном объекте $x \in X,$ и\\
+\begin{equation}\label{def:empirical_risk} 
+Q(a,T^n)= \frac{1}{n} \sum_{1}^{n}L(a(\vec{x}_i),y_i)
+\end{equation} 
+--- \textit{эмпирический риск}, средняя ошибка $a$ на выборке $T^n.$
+Метод заключается в нахождении алгоритма $a_{opt}$, для которого средняя ошибка на выборке будет минимальна:\cite{erm}
+\begin{equation}
+a_{opt} = \argmin_{a \in A} Q(a,T^n) 
+=\argmin_{a \in A} \frac{1}{n} \sum_{1}^{n}L(a(\vec{x}_i),y_i) 
+\end{equation}
+Перейдём к описанию используемой модели.
+
+\subsubsection{Модель алгортитмов}
+В качестве модели $A$ будем рассматривать функции вида:
+$$a_{\vec{w},b}(\vec{x}) := sign(\vec{w}^\mathrm{T}\vec{x} - b),$$ где $\vec{w} \in \mathbb{R}^m, b \in \mathbb{R}$.
+Уравнение
+\begin{equation}\label{def:plane_equation}
+\vec{w}^\mathrm{T}\vec{x} - b= 0
+\end{equation}
+задает гиперплоскость в пространстве $\mathbb{R}^m,$ а выражение $sign(\vec{w}^\mathrm{T}\vec{x} - b)$ показывает в каком из полупространств, полученных при разделении исходного пространства этой гиперплоскостью лежит $\vec{x}.$ 
+
+Определенные таким образом алгоритмы, показывают по какую сторону гиперплоскости лежит объект, а задача обучения при таком семействе алгоритмов --- построение оптимальной гиперплоскости.\\
+\begin{figure}
+	\input{fig/example1.pgf}
+	\caption{Линейно разделимая выборка}
+	\label{fig:example1}
+\end{figure}
+На рисунке \ref{fig:example1} построенная гиперплоскость(прямая) "разделяет" два класса объектов. Выборку для которой возможно построить гиперполскость, такую что объекты одного класса лежат в одном полупространстве, полученном при разделении гиперплоскостью, будем называть \textit{линейно разделимой:}
+\begin{equation*}
+\exists \vec{w}:
+\left[ 
+\begin{gathered}
+\begin{cases}
+\vec{w}^\mathrm{T}\vec{x_i} - b < 0, \forall \vec{x_i} \in C_1
+\\
+\vec{w}^\mathrm{T}\vec{x_i} - b > 0, \forall \vec{x_i} \in C_2
+\end{cases}\\
+либо
+\begin{cases}
+\vec{w}^\mathrm{T}\vec{x_i} - b < 0, \forall \vec{x_i} \in C_1
+\\
+\vec{w}^\mathrm{T}\vec{x_i} - b > 0, \forall \vec{x_i} \in C_2
+\end{cases}
+\end{gathered}
+\right.
+\end{equation*}
+%Эти условия выполняются не всегда, кроме того на примере видно, что все три прямых удовлетворяют данным условиям. Попробуем выбрать функцию потерь.
+Для того чтобы окончательно сформулировать задачу оптимизации, необходимо выбрать функцию потерь $L$ \eqref{def:loss_function}.
+
+\subsubsection{Функция потерь}
+Естественным выбором функции потерь в задаче классификации будет:
+\begin{equation}\label{def:indicator_loss_function}
+L(y,y'):=[y \neq y'] :=
+\begin{cases}
+1, y \neq y'
+\\
+0, y=y'
+\end{cases} 
+\end{equation}
+--- \textit{пороговая функция потерь}, индикатор ошибки. 
+Функционал эмперического риска \eqref{def:empirical_risk} при использовании пороговой функции потерь --- это доля неверно классифицированных объектов обучаующей выборки:
+\begin{equation}
+\begin{aligned}
+Q(a,T^n) &= \frac{1}{n} \sum_{1}^{n}L(a(\vec{x}_i),y_i)
+=\frac{1}{n} \sum_{1}^{n} [a(\vec{x}_i) \ne y_i] 
+=\frac{1}{n} \sum_{1}^{n} [a(\vec{x}_i) \ne y_i]
+\end{aligned}
+\end{equation}
+При использовании пороговой функции потерь, задача обучения --- минимизация числа неверно классифицируемых объектов обучающей выборки.
+\subsection{Построение алгоритма классификации}
+
+
+Для алгоритмов из выбранного ранее семейства  и множества $Y=\{-1,1\}$ пороговая функция потерь \eqref{def:indicator_loss_function}, записывается следующим образом:
+\begin{equation}
+\begin{aligned}
+L(a(\vec{x}_i),y_i)&=[sign(\vec{w}^\mathrm{T}\vec{x}_i - b) \neq y_i] \\
+&= [sign(\vec{w}^\mathrm{T}\vec{x}_i - b)  y_i = -1] \\
+&= [(\vec{w}^\mathrm{T}\vec{x}_i - b)  y_i < 0]
+\end{aligned}
+\end{equation}
+Обозначим:
+$$M_{a}(\vec{x}_i) = M_{a_{\vec{w},b}}(\vec{x}_i)= M_{\vec{w},b}(\vec{x}_i) = (\vec{w}^\mathrm{T}\vec{x}_i - b)  y_i$$ 
+---\textit{отступ} объекта $\vec{x}_i$ отностительно алгоритма $a = a_{\vec{w},b}$.
+При $|\vec{w}|= 1$, отступ --- расстояние от объекта до построенной гиперплоскости, взятое с отрицательным знаком, в случае, если объект классифицирован неверно. Функция потерь переписывается в виде:
+\begin{equation}
+\begin{aligned}
+L(a(\vec{x}_i),y_i)=[M_{a}(\vec{x}_i) <0],
+\end{aligned}
+\end{equation} 
+а функционал эмперического риска и задача оптимизации: 
+\begin{equation}
+\begin{aligned}
+Q(a_{\vec{w},b},T^n)=\frac{1}{n} \sum_{1}^{n} [M_{a}(\vec{x}_i) < 0]
+\end{aligned}
+\end{equation}
+\begin{equation}
+\begin{aligned}a_{opt} 
+= \argmin_{a_{\vec{w},b} \in A} Q(a_{\vec{w},b},T^n) 
+= \argmin_{\vec{w} \in \mathbb{R}^n, b \in \mathbb{R}} \frac{1}{n} \sum_{1}^{n} [(\vec{w}^\mathrm{T}\vec{x}_i - b)  y_i < 0]
+\end{aligned}
+\end{equation}
+\begin{figure}
+	\centering		
+	\input{fig/example3.pgf}
+	\caption{Неколько разделяющих прямых}
+	\label{fig:example3}
+\end{figure}
+
+Заметим, что уравнение плоскости \ref{def:plane_equation} может быть домножено на некоторое число. В этом случае $w'= \alpha w$ и $b' = \alpha b$ задают ту же гиперплоскость, и решение задачи оптимизации не единственно. Этого можно избежать, задав ограничение на норму $\vec{w}$, однако это не решит проблему единственности.\\
+На рисунке \ref{fig:example3} можно увидеть, что несколько прямых разделют выборку с нулевой ошибкой: $\forall x: M(x)>0.$\\
+Попробуем обеспечить единственность в случае линейно разделимой выборки. Для этого добавим следущее условие на оптимальные $\vec{w'},b'$:
+$$(\vec{w'},b)'  =\argmax_{\vec{w},b} (\min_{\vec{x} \in X^n} \frac{M_{\vec{w},b}(x)}{\|\vec{w}\|}) \\
+=\argmax_{\vec{w},b} (\frac{1}{\|\vec{w}\|}\min_{\vec{x} \in X^n} M_{\vec{w},b}(x)) $$
+---  оптимальные $\vec{w'},b'$ должны максимизировать минимальное расстояние от объекта до разделяющей гиперплоскости.
+
+Отметим, что минимальные для каждого из классов значения отступов, при выполнение этого условия, совпадают:
+\begin{equation*}
+\begin{gathered}
+\begin{cases}
+(\vec{w'},b')  =\argmax_{\vec{w},b} \min_{\vec{x} \in X^n} \frac{ M_{\vec{w},b}(\vec{x})}{\|\vec{w}\|}\\
+\forall i : M_{\vec{w}',b'}(\vec{x}_i)>0
+\end{cases}
+\end{gathered}
+\implies
+\min_{\vec{x} \in C_1} M_{\vec{w}',b'}(\vec{x}) = \min_{\vec{x} \in C_2} M_{\vec{w}',b'}(\vec{x})
+\end{equation*}
+
+\begin{proof}
+Предположим ,что это не так, для определенности пусть: $$\min_{\vec{x} \in C_1} M_{\vec{w}',b'}(\vec{x}) > \min_{\vec{x} \in C_2} M_{\vec{w}',b'}(\vec{x}),$$  Существуют объекты разных классов на которых достигаются минимумы:
+$$ \exists \vec{x}_1 \in C_1, \vec{x}_2 \in C_2,\\
+\vec{x}_1 = \argmin_{\vec{x} \in C_1}M_{\vec{w}',b'}(\vec{x}) , \vec{x}_2 = \argmin_{\vec{x} \in C_2}M_{\vec{w}',b'}(\vec{x})$$
+При этом:$$M_{\vec{w}',b'}(\vec{x}_1)>M_{\vec{w}',b'}(\vec{x}_2)$$
+Тогда положив $b'' = b' - \frac{M_{\vec{w}',b'}(\vec{x}_1)-M_{\vec{w}',b'}(\vec{x}_2)}{2} $:
+\begin{equation*}
+\begin{aligned}
+M_{\vec{w}',b''}(\vec{x}_i) &=(\vec{w}'^{\mathtt{T}}\vec{x}_2 -  b'')y_i \\
+&=(\vec{w}'^{\mathtt{T}}\vec{x}_i -  b' - \frac{M_{\vec{w}',b'}(\vec{x}_1)-M_{\vec{w}',b'}(\vec{x}_2)}{2})y_i \\
+&=M_{\vec{w}',b'}(\vec{x}_i) - \frac{M_{\vec{w}',b'}(\vec{x}_1)-M_{\vec{w}',b'}(\vec{x}_2)}{2}y_i 
+\end{aligned}
+\end{equation*}
+
+\begin{equation*}
+\begin{aligned}
+M_{\vec{w}',b''}(\vec{x}_1)&=\frac{M_{\vec{w}',b'}(\vec{x}_1)+M_{\vec{w}',b'}(\vec{x}_2)}{2} \\
+M_{\vec{w}',b''}(\vec{x}_2)&=\frac{M_{\vec{w}',b'}(\vec{x}_1)+M_{\vec{w}',b'}(\vec{x}_2)}{2} 
+\end{aligned}
+\end{equation*}
+--- получим равенство отступов. Покажем, что минимальность для каждого из классов сохраняется:
+\begin{equation*}
+\begin{aligned}
+\min_{\vec{x}_i \in C_1} M_{\vec{w}',b''}(\vec{x}_i) 
+&=\min_{\vec{x}_i \in C_1}( M_{\vec{w}',b'}(\vec{x}_i) - \frac{M_{\vec{w}',b'}(\vec{x}_1)-M_{\vec{w}',b'}(\vec{x}_2)}{2}y_i )\\
+&=\min_{\vec{x}_i \in C_1}( M_{\vec{w}',b'}(\vec{x}_i) - \frac{M_{\vec{w}',b'}(\vec{x}_1)-M_{\vec{w}',b'}(\vec{x}_2)}{2} )\\
+&=\min_{\vec{x}_i \in C_1}( M_{\vec{w}',b'}(\vec{x}_i)) - \frac{M_{\vec{w}',b'}(\vec{x}_1)-M_{\vec{w}',b'}(\vec{x}_2)}{2} \\
+\end{aligned}
+\end{equation*}
+\begin{equation*}
+\begin{aligned}
+\min_{\vec{x}_i \in C_2} c
+&=\min_{\vec{x}_i \in C_2}( M_{\vec{w}',b'}(\vec{x}_i) - \frac{M_{\vec{w}',b'}(\vec{x}_1)-M_{\vec{w}',b'}(\vec{x}_2)}{2}y_i )\\
+&=\min_{\vec{x}_i \in C_2}( M_{\vec{w}',b'}(\vec{x}_i) + \frac{M_{\vec{w}',b'}(\vec{x}_1)-M_{\vec{w}',b'}(\vec{x}_2)}{2} )\\
+&=\min_{\vec{x}_i \in C_2}( M_{\vec{w}',b'}(\vec{x}_i)) + \frac{M_{\vec{w}',b'}(\vec{x}_1)-M_{\vec{w}',b'}(\vec{x}_2)}{2} \\
+\end{aligned}
+\end{equation*}
+Из этого следует, что $(\vec{w},b'')$ оптимальнее $(\vec{w},b')$:
+$$\min_{\vec{x} \in X} M_{\vec{w}',b''}(\vec{x}) = \min_{\vec{x} \in C_1} M_{\vec{w}',b''}(\vec{x}) =\min_{\vec{x} \in C_2} M_{\vec{w}',b''}(\vec{x}_i) > \min_{\vec{x} \in C_2} M_{\vec{w}',b'}(\vec{x}_i) = \min_{\vec{x} \in X} M_{\vec{w}',b'}(\vec{x})$$
+\end{proof}
+Положим:
+$$\min_{\vec{x} \in X^n} M_{\vec{w}',b'}(\vec{x}) = 1 $$
+тогда задача оптимизации преобразуется
+\begin{equation*}
+\begin{aligned}
+&\begin{gathered}
+\begin{cases}
+(\vec{w'},b')  =\argmax_{\vec{w},b} \min_{\vec{x} \in X^n} \frac{ M_{\vec{w},b}(\vec{x})}{\|\vec{w}\|}\\
+\forall i : M_{\vec{w}',b'}(\vec{x}_i)>0\\
+$$\min_{\vec{x} \in X^n} M_{\vec{w}',b'}(\vec{x}) = 1 $$
+\end{cases}
+\end{gathered}
+\implies\\
+\implies
+&\begin{gathered}
+\begin{cases}
+(\vec{w'},b')  =\argmax_{\vec{w},b} \frac{1}{\|\vec{w}\|}\\
+\forall i : M_{\vec{w}',b'}(\vec{x}_i)\ge 1\\
+\end{cases}
+\end{gathered}
+\implies\\
+\implies
+&\begin{gathered}
+\begin{cases}
+(\vec{w'},b')  =\argmin_{\vec{w},b} \frac{1}{2}\|\vec{w}\|^2\\
+\forall i : M_{\vec{w}',b'}(\vec{x}_i)\ge 1\\
+\end{cases}
+\end{gathered}
+\end{aligned}
+\end{equation*}
+Рассмотрев случай линейно разделимой выборки, попробуем адаптировать поставленную задачу для выборки не являющейся линейно разделимой.
+Для этого ослабим ограничения, позволив оступам быть меньше единицы и даже отрицательными. Разрешив ошибки построенного алгоритма на обучающей выборке, добавим к минимизируемой функции сумму этих ошибок. Получим следущую задачу:
+\begin{equation*}
+\begin{gathered}
+\begin{cases}
+(\vec{w'},b')  =\argmin_{\vec{w},b,\vec{\xi}} \frac{1}{2}(\|\vec{w}\|^2 + C \sum_1^n \xi_i )\\
+\forall i: M_{\vec{w}',b'}(\vec{x}_i) \ge 1 - \xi_i  \\
+\forall i: \xi_i \ge 0
+\end{cases}
+\end{gathered}
+\end{equation*}
+\begin{figure}
+	\centering		
+	\input{fig/example2.pgf}
+	\caption{Наименьшие отступы}
+	\label{fig:example2}
+\end{figure}
+Применим построенный алгоритм и оценим резултаты.
+\subsection{Оценка результатов работы алгоритма}
+Для применения построеного алгоритма были собраны 669 рассказов А. П. Чехова и А. И Куприна. И посчитаны некоторые численные характеристики каждого из рассказов.
+\begin{figure}
+	\centering		
+	\input{fig/letters_count_words_count_0.pgf}
+	\caption{Диаграмма рассеяния по количеству букв и количеству слов}
+	\label{fig:scatter_1}
+\end{figure}
+\begin{figure}
+	\centering		
+	\input{fig/sentences_count_words_count_0.pgf}
+	\caption{Диаграмма рассеяния по количеству слов и количеству предложений}
+	\label{fig:scatter_2}
+\end{figure}
+\begin{figure}
+	\centering		
+	\input{fig/avg_word_length_avg_sentence_length_0.pgf}
+	\caption{Диаграмма рассеяния по средней длине слова и средней длине предложения }
+	\label{fig:scatter_3}
+\end{figure}
+
+\begin{figure}
+	\centering		
+	\input{fig/letters_count_total_punctuation_signs_0.pgf}
+	\caption{Диаграмма рассеяния по количеству букв и количеству знаков препинания }
+	\label{fig:scatter_4}
+\end{figure}
+Для оценки результатов, все рассказазы разбиты на обучающую и тестовые выборки.
+Построив диаграммы рассеяния рисунки \ref{fig:scatter_1},\ref{fig:scatter_2},\ref{fig:scatter_3},\ref{fig:scatter_4} по некоторым признакам, было решено провести обучение на некоторых парах признаков.
+Рисунки \ref{fig:learn_1},\ref{fig:learn_2},\ref{fig:learn_3},\ref{fig:learn_4} демонстрируют постренные разделяющие прямые. 
+Таблицы \ref{table:learn_1_tr},\ref{table:learn_2_tr},\ref{table:learn_3_tr},\ref{table:learn_4_tr} демонстрируют точность классификации на тестовой выборке при $C=1$.
+Таблицы \ref{table:learn_1_cv_tr},\ref{table:learn_2_cv_tr},\ref{table:learn_3_cv_tr},\ref{table:learn_4_cv_tr} демонстрируют точность классификации на тестовой выборке при использовании скользящего контроля для выбора $C$.
+\begin{figure}
+	\centering		
+	\input{fig/letters_count_words_count_4.pgf}
+	\caption{Диаграмма рассеяния по количеству букв и количеству слов и разделяющая прямая}
+	\label{fig:learn_1}
+\end{figure}
+\begin{figure}
+	\centering		
+	\input{fig/sentences_count_words_count_4.pgf}
+	\caption{Диаграмма рассеяния по количеству слов и количеству предложений и разделяющая прямая}
+	\label{fig:learn_2}
+\end{figure}
+\begin{figure}
+	\centering		
+	\input{fig/avg_word_length_avg_sentence_length_4.pgf}
+	\caption{Диаграмма рассеяния по средней длине слова и средней длине предложения и разделяющая прямая}
+	\label{fig:learn_3}
+\end{figure}
+
+\begin{figure}
+	\centering		
+	\input{fig/letters_count_total_punctuation_signs_4.pgf}
+	\caption{Диаграмма рассеяния по количеству букв и количеству знаков препинания и разделяющая прямая}
+	\label{fig:learn_4}
+\end{figure}
+
+\begin{table}{}
+	\centering	
+	\input{tables/test_report_letters_count_words_count}
+	\caption{Результаты работы алгоритма для признаков: количество символов, количество слов, число слов.$C$= 1}
+	\label{table:learn_1_tr}
+\end{table}	
+\begin{table}{}
+	\centering	
+	\input{tables/test_report_CVletters_count_words_count}
+	\caption{Результаты работы алгоритма для признаков: количество символов, количество слов. $C$ выбрано используя скользящий контроль}
+	\label{table:learn_1_cv_tr}
+\end{table}
+
+\begin{table}{}
+	\centering	
+	\input{tables/test_report_sentences_count_words_count}
+	\caption{Результаты работы алгоритма для признаков: количество предложений, количество слов.$C$= 1}
+	\label{table:learn_2_tr}
+\end{table}		
+\begin{table}{}
+	\centering	
+	\input{tables/test_report_CVsentences_count_words_count}
+	\caption{Результаты работы алгоритма для признаков: количество предложений, количество слов. $C$ выбрано используя скользящий контроль}
+	\label{table:learn_2_cv_tr}
+\end{table}
+
+
+\begin{table}{}
+	\centering	
+	\input{tables/test_report_avg_word_length_avg_sentence_length}
+	\caption{Результаты работы алгоритма для признаков: средня длина слова, средня длина предложения. $C$= 1}
+	\label{table:learn_3_tr}	
+\end{table}
+
+\begin{table}{}
+	\centering	
+	\input{tables/test_report_CVavg_word_length_avg_sentence_length}
+	\caption{Результаты работы алгоритма для признаков: средня длина слова, средня длина предложения. $C$ выбрано используя скользящий контроль}
+	\label{table:learn_3_cv_tr}	
+\end{table}
+
+
+\begin{table}{}
+	\centering	
+	\input{tables/test_report_letters_count_total_punctuation_signs}		
+	\caption{Результаты работы алгоритма для признаков: количество символов, количество знаков пунктуации. $C$= 1}
+	\label{table:learn_4_tr}
+\end{table}
+\begin{table}{}
+	\centering	
+	\input{tables/test_report_CVletters_count_total_punctuation_signs}	
+	\caption{Результаты работы алгоритма для признаков: количество знаков пунктуации. $C$ выбрано используя скользящий контроль}
+	\label{table:learn_4_cv_tr}
+\end{table}
+
+\subsection{Метод главных компонент}
+Попробуем из $m$ признаков получить 2, которые лучше других описывают объекты обучающей выборки:
+для этого вычислим сингулярное разложение центрированной и транспонированное матрицы объектов и потроим проекции объектов выборки на сингулярные вектора соответствующие двум наибольшим сингулярным числам.\cite{ssa}
+
+\subsection{Оценка результатов работы модифицированного алгоритма}
+
+Рисунок \ref{fig:learn_5} и таблица \ref{table:learn_5_cv_tr} демонстрируют результаты работы алгоритма с предварительным построением двух признаков.
+\begin{figure}
+	\centering		
+	\input{fig/with_PCA_1.pgf}
+	\caption{Проекция на главные компоненты.}
+	\label{fig:scatter_5}
+\end{figure}
+\begin{figure}
+	\centering		
+	\input{fig/with_PCA_2.pgf}
+	\caption{Проекция на главные компоненты и разделяющая прямая}
+	\label{fig:learn_5}
+\end{figure}
+
+\begin{table}{}	
+	\centering	
+	\input{tables/test_report_svd}
+	\caption{Результаты работы модифицированного алгоритма}
+	\label{table:learn_5_cv_tr}
+\end{table}
+
+
+\section{Заключение}
+
+
+
+% Список литературы
+\printbibliography[heading=bibintoc]
+
+% Приложения
+\appendix
+
+
+\end{document}

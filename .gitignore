@@ -1,0 +1,8 @@
+/venv
+/workspace.xml
+.idea
+__py
+#old generated tex stuff
+/plots
+/tables
+/report/report.log

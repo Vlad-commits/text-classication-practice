@@ -1,0 +1,670 @@
+paragraphs_count;sentences_count;words_count;letters_count;total_question_marks;total_punctuation_signs;name;author
+32;102;1461;8010;0;359;./data/A_I_Kuprin\Allez! (Куприн).txt;A_I_Kuprin
+24;76;916;5122;0;172;./data/A_I_Kuprin\Аль-Исса (Куприн).txt;A_I_Kuprin
+66;203;2274;12390;7;644;./data/A_I_Kuprin\Анафема (Куприн).txt;A_I_Kuprin
+36;176;3260;17217;3;705;./data/A_I_Kuprin\Без заглавия (Куприн).txt;A_I_Kuprin
+50;180;2503;13015;9;588;./data/A_I_Kuprin\Бонза (Куприн).txt;A_I_Kuprin
+57;210;2251;12322;30;635;./data/A_I_Kuprin\Бред (Куприн).txt;A_I_Kuprin
+22;79;777;4476;7;225;./data/A_I_Kuprin\Брильянты (Куприн).txt;A_I_Kuprin
+51;157;1948;10614;3;433;./data/A_I_Kuprin\В зверинце (Куприн).txt;A_I_Kuprin
+95;309;2483;13914;41;769;./data/A_I_Kuprin\В казарме (Куприн).txt;A_I_Kuprin
+23;121;1208;6185;14;309;./data/A_I_Kuprin\В клетке зверя (Куприн).txt;A_I_Kuprin
+83;289;3673;20300;11;901;./data/A_I_Kuprin\В недрах земли (Куприн).txt;A_I_Kuprin
+60;215;3259;18032;31;776;./data/A_I_Kuprin\Волшебный ковёр (Куприн).txt;A_I_Kuprin
+34;167;1885;9750;17;473;./data/A_I_Kuprin\Воробей (Куприн).txt;A_I_Kuprin
+48;204;1654;8440;26;502;./data/A_I_Kuprin\Гоголь-моголь (Куприн).txt;A_I_Kuprin
+29;74;780;3877;1;192;./data/A_I_Kuprin\Демир-Кая (Куприн).txt;A_I_Kuprin
+57;143;1414;7587;23;435;./data/A_I_Kuprin\Детский сад (Куприн).txt;A_I_Kuprin
+111;340;4462;24908;22;1110;./data/A_I_Kuprin\Дочь великого Барнума (Куприн).txt;A_I_Kuprin
+99;204;1239;6845;35;484;./data/A_I_Kuprin\Друзья (Куприн).txt;A_I_Kuprin
+336;1259;17091;92012;111;4039;./data/A_I_Kuprin\Жидкое солнце (Куприн).txt;A_I_Kuprin
+19;172;972;5480;0;331;./data/A_I_Kuprin\Жизнь (Куприн).txt;A_I_Kuprin
+147;300;3417;18700;36;1078;./data/A_I_Kuprin\Жрец (Куприн).txt;A_I_Kuprin
+34;156;2016;10579;10;467;./data/A_I_Kuprin\Игрушка (Куприн).txt;A_I_Kuprin
+33;114;1361;6949;6;335;./data/A_I_Kuprin\Инна (Куприн).txt;A_I_Kuprin
+11;11;53;306;1;19;./data/A_I_Kuprin\Искусство (Куприн).txt;A_I_Kuprin
+21;122;1320;7243;21;422;./data/A_I_Kuprin\Исполины (Куприн).txt;A_I_Kuprin
+227;849;9456;49908;91;2594;./data/A_I_Kuprin\К славе (Куприн).txt;A_I_Kuprin
+267;890;8500;44057;67;2350;./data/A_I_Kuprin\Как я был актёром (Куприн).txt;A_I_Kuprin
+232;1011;7927;39618;89;2674;./data/A_I_Kuprin\Конокрады (Куприн).txt;A_I_Kuprin
+42;134;1840;10142;11;426;./data/A_I_Kuprin\Королевский парк (Куприн).txt;A_I_Kuprin
+26;72;691;3646;6;188;./data/A_I_Kuprin\Легенда (Куприн).txt;A_I_Kuprin
+72;256;3331;18009;12;824;./data/A_I_Kuprin\Леночка (Куприн).txt;A_I_Kuprin
+43;126;2001;11198;0;409;./data/A_I_Kuprin\Лимонная корка (Куприн).txt;A_I_Kuprin
+34;118;1729;10040;4;406;./data/A_I_Kuprin\Локон (Куприн).txt;A_I_Kuprin
+39;166;2493;13061;9;518;./data/A_I_Kuprin\Лолли (Куприн).txt;A_I_Kuprin
+54;260;3113;15699;33;815;./data/A_I_Kuprin\Лунной ночью (Куприн).txt;A_I_Kuprin
+42;143;1388;7193;13;389;./data/A_I_Kuprin\Марианна (Куприн).txt;A_I_Kuprin
+209;727;7260;38291;56;2069;./data/A_I_Kuprin\Мелюзга (Куприн).txt;A_I_Kuprin
+66;236;2998;17882;8;745;./data/A_I_Kuprin\Механическое правосудие (Куприн).txt;A_I_Kuprin
+39;207;2477;13015;16;697;./data/A_I_Kuprin\Миллионер (Куприн).txt;A_I_Kuprin
+202;602;7376;38912;41;1917;./data/A_I_Kuprin\Морская болезнь (Куприн).txt;A_I_Kuprin
+77;304;3798;20373;23;1018;./data/A_I_Kuprin\Мясо (Куприн).txt;A_I_Kuprin
+186;833;8410;45034;59;2443;./data/A_I_Kuprin\На покое (Куприн).txt;A_I_Kuprin
+83;301;2839;14729;28;779;./data/A_I_Kuprin\На разъезде (Куприн).txt;A_I_Kuprin
+70;236;2379;12657;22;670;./data/A_I_Kuprin\Нарцисс (Куприн).txt;A_I_Kuprin
+32;93;1339;7411;6;308;./data/A_I_Kuprin\Наталья Давыдовна (Куприн).txt;A_I_Kuprin
+43;144;1573;8202;12;462;./data/A_I_Kuprin\Начальница тяги (Куприн).txt;A_I_Kuprin
+145;385;4325;23355;52;1156;./data/A_I_Kuprin\Негласная ревизия (Куприн).txt;A_I_Kuprin
+196;666;6844;36969;43;2089;./data/A_I_Kuprin\Ночная смена (Куприн).txt;A_I_Kuprin
+63;251;3108;15949;14;756;./data/A_I_Kuprin\Ночная фиалка (Куприн).txt;A_I_Kuprin
+111;409;4723;26383;43;1415;./data/A_I_Kuprin\Обида (Куприн).txt;A_I_Kuprin
+67;243;2929;15682;44;719;./data/A_I_Kuprin\Одиночество (Куприн).txt;A_I_Kuprin
+87;486;5452;29034;30;1476;./data/A_I_Kuprin\Однорукий комендант (Куприн).txt;A_I_Kuprin
+56;157;2191;11706;7;521;./data/A_I_Kuprin\Палач (Куприн).txt;A_I_Kuprin
+54;184;1626;8408;11;501;./data/A_I_Kuprin\Пегие лошади (Куприн).txt;A_I_Kuprin
+39;93;1207;6424;6;299;./data/A_I_Kuprin\Первенец (Куприн).txt;A_I_Kuprin
+51;258;3027;15700;33;746;./data/A_I_Kuprin\Первый встречный (Куприн).txt;A_I_Kuprin
+86;214;2362;12665;25;639;./data/A_I_Kuprin\Пиратка (Куприн).txt;A_I_Kuprin
+39;204;3221;18384;15;788;./data/A_I_Kuprin\По заказу (Куприн).txt;A_I_Kuprin
+46;142;1747;9158;3;469;./data/A_I_Kuprin\По-семейному (Куприн).txt;A_I_Kuprin
+83;404;4416;23665;41;1240;./data/A_I_Kuprin\Погибшая сила (Куприн).txt;A_I_Kuprin
+162;392;3897;21293;40;1116;./data/A_I_Kuprin\Полубог (Куприн).txt;A_I_Kuprin
+94;239;1620;8067;30;550;./data/A_I_Kuprin\Последнее слово (Куприн).txt;A_I_Kuprin
+68;292;3832;21489;15;917;./data/A_I_Kuprin\Последние рыцари (Куприн).txt;A_I_Kuprin
+77;285;3005;16296;26;882;./data/A_I_Kuprin\Поход (Куприн).txt;A_I_Kuprin
+55;216;1977;9810;17;572;./data/A_I_Kuprin\Пощёчина (Куприн).txt;A_I_Kuprin
+41;157;1546;8037;23;448;./data/A_I_Kuprin\Просительница (Куприн).txt;A_I_Kuprin
+85;391;5517;28691;49;1250;./data/A_I_Kuprin\Психея (Куприн).txt;A_I_Kuprin
+21;73;823;4147;5;215;./data/A_I_Kuprin\Пустые дачи (Куприн).txt;A_I_Kuprin
+42;205;2041;10995;16;547;./data/A_I_Kuprin\Путешественники (Куприн).txt;A_I_Kuprin
+159;600;6248;32671;32;1803;./data/A_I_Kuprin\Река жизни (Куприн).txt;A_I_Kuprin
+133;1119;10834;53865;105;3648;./data/A_I_Kuprin\С улицы (Куприн).txt;A_I_Kuprin
+72;204;2398;12907;9;587;./data/A_I_Kuprin\Сашка и Яшка (Куприн).txt;A_I_Kuprin
+115;413;4302;23599;31;1159;./data/A_I_Kuprin\Свадьба (Куприн).txt;A_I_Kuprin
+57;179;2534;13311;9;600;./data/A_I_Kuprin\Святая любовь (Куприн).txt;A_I_Kuprin
+25;148;2620;13992;9;609;./data/A_I_Kuprin\Сентиментальный роман (Куприн).txt;A_I_Kuprin
+57;212;2604;12699;10;694;./data/A_I_Kuprin\Серебряный волк (Куприн).txt;A_I_Kuprin
+87;272;4072;21908;23;830;./data/A_I_Kuprin\Синяя звезда (Куприн).txt;A_I_Kuprin
+24;61;324;1557;5;122;./data/A_I_Kuprin\Сказка (1920, Куприн).txt;A_I_Kuprin
+35;153;1837;9718;17;495;./data/A_I_Kuprin\Сказка (Куприн).txt;A_I_Kuprin
+27;69;374;1836;6;122;./data/A_I_Kuprin\Сказочки (Куприн).txt;A_I_Kuprin
+20;150;2010;10905;4;485;./data/A_I_Kuprin\Скворцы (Куприн).txt;A_I_Kuprin
+57;221;2750;14627;28;684;./data/A_I_Kuprin\Славянская душа (Куприн).txt;A_I_Kuprin
+125;350;2869;14029;40;842;./data/A_I_Kuprin\Слон (Куприн).txt;A_I_Kuprin
+26;95;1528;8105;1;326;./data/A_I_Kuprin\Слоновья прогулка (Куприн).txt;A_I_Kuprin
+25;80;875;4579;1;268;./data/A_I_Kuprin\Сны (Куприн).txt;A_I_Kuprin
+82;210;2104;11647;15;599;./data/A_I_Kuprin\Собачье счастье (Куприн).txt;A_I_Kuprin
+95;273;2209;10832;40;693;./data/A_I_Kuprin\Странный случай (Куприн).txt;A_I_Kuprin
+143;368;4747;25973;46;1215;./data/A_I_Kuprin\Страшная минута (Куприн).txt;A_I_Kuprin
+76;175;1077;5400;36;381;./data/A_I_Kuprin\Суд (Куприн).txt;A_I_Kuprin
+62;154;2169;10857;6;488;./data/A_I_Kuprin\Судьба (Куприн).txt;A_I_Kuprin
+40;160;1794;9540;15;489;./data/A_I_Kuprin\Счастливая карта (Куприн).txt;A_I_Kuprin
+49;102;559;2661;13;213;./data/A_I_Kuprin\Счастье (Куприн).txt;A_I_Kuprin
+24;142;1832;9536;6;518;./data/A_I_Kuprin\Телеграфист (Куприн).txt;A_I_Kuprin
+73;228;1326;7124;30;608;./data/A_I_Kuprin\Травка (Куприн).txt;A_I_Kuprin
+36;161;1767;8790;3;461;./data/A_I_Kuprin\Убийца (Куприн).txt;A_I_Kuprin
+40;135;1792;9612;6;412;./data/A_I_Kuprin\Ужас (Куприн).txt;A_I_Kuprin
+26;142;2039;11191;15;495;./data/A_I_Kuprin\Фиалки (Куприн).txt;A_I_Kuprin
+147;496;6594;35098;26;1701;./data/A_I_Kuprin\Храбрые беглецы (Куприн).txt;A_I_Kuprin
+175;664;8157;43351;65;2275;./data/A_I_Kuprin\Чёрная молния (Куприн).txt;A_I_Kuprin
+105;312;3593;18348;25;993;./data/A_I_Kuprin\Чёрный туман (Куприн).txt;A_I_Kuprin
+10;67;933;5262;6;222;./data/A_I_Kuprin\Чары (Куприн).txt;A_I_Kuprin
+61;230;2428;13365;15;634;./data/A_I_Kuprin\Чудесный доктор (Куприн).txt;A_I_Kuprin
+38;133;1627;8861;4;372;./data/A_I_Kuprin\Чужой хлеб (Куприн).txt;A_I_Kuprin
+45;175;1370;6733;21;411;./data/A_P_Chehov\75 000 (Чехов).txt;A_P_Chehov
+50;206;1408;6891;25;491;./data/A_P_Chehov\Mari d'elle (Чехов).txt;A_P_Chehov
+89;297;1973;10036;39;719;./data/A_P_Chehov\Perpetuum mobile (Чехов).txt;A_P_Chehov
+11;14;101;577;0;35;./data/A_P_Chehov\Rara avis (Чехов).txt;A_P_Chehov
+71;251;1299;6269;41;500;./data/A_P_Chehov\«Свидание хотя и состоялось, но...» (Чехов).txt;A_P_Chehov
+26;95;430;2348;13;201;./data/A_P_Chehov\Ёлка (Чехов).txt;A_P_Chehov
+103;326;2963;14746;26;887;./data/A_P_Chehov\Агафья (Чехов).txt;A_P_Chehov
+65;223;1666;8247;32;564;./data/A_P_Chehov\Актёрская гибель (Чехов).txt;A_P_Chehov
+16;51;568;3022;1;164;./data/A_P_Chehov\Альбом (Чехов).txt;A_P_Chehov
+73;228;3939;19580;10;962;./data/A_P_Chehov\Анна на шее (Чехов).txt;A_P_Chehov
+33;117;816;4204;12;300;./data/A_P_Chehov\Антрепренёр под диваном (Чехов).txt;A_P_Chehov
+48;132;1136;5740;11;376;./data/A_P_Chehov\Анюта (Чехов).txt;A_P_Chehov
+68;197;1378;7159;21;517;./data/A_P_Chehov\Аптекарша (Чехов).txt;A_P_Chehov
+118;515;8256;40056;38;2073;./data/A_P_Chehov\Ариадна (Чехов).txt;A_P_Chehov
+123;381;4628;23142;27;1445;./data/A_P_Chehov\Архиерей (Чехов).txt;A_P_Chehov
+28;89;613;3076;7;218;./data/A_P_Chehov\Ах, зубы! (Чехов).txt;A_P_Chehov
+95;358;3915;18635;15;1195;./data/A_P_Chehov\Бабы (Чехов).txt;A_P_Chehov
+249;868;12009;60127;52;3367;./data/A_P_Chehov\Бабье царство (Чехов).txt;A_P_Chehov
+23;103;526;2556;20;213;./data/A_P_Chehov\Баран и барышня (Чехов).txt;A_P_Chehov
+43;176;1902;9790;7;456;./data/A_P_Chehov\Барон (Чехов).txt;A_P_Chehov
+323;1031;5530;26766;150;1951;./data/A_P_Chehov\Барыня (Чехов).txt;A_P_Chehov
+76;207;2085;10352;22;586;./data/A_P_Chehov\Беглец (Чехов).txt;A_P_Chehov
+34;114;1067;5372;5;334;./data/A_P_Chehov\Беда (Чехов, 1886).txt;A_P_Chehov
+48;158;1865;9228;18;461;./data/A_P_Chehov\Беда (Чехов, 1887).txt;A_P_Chehov
+22;129;1279;6453;6;332;./data/A_P_Chehov\Без места (Чехов).txt;A_P_Chehov
+39;140;1346;6669;9;431;./data/A_P_Chehov\Беззаконие (Чехов).txt;A_P_Chehov
+56;166;1277;6630;17;461;./data/A_P_Chehov\Беззащитное существо (Чехов).txt;A_P_Chehov
+38;119;961;4813;14;291;./data/A_P_Chehov\Безнадёжный (Чехов).txt;A_P_Chehov
+37;117;1646;7873;3;421;./data/A_P_Chehov\Белолобый (Чехов).txt;A_P_Chehov
+8;53;520;2779;1;116;./data/A_P_Chehov\Бенефис соловья (Чехов).txt;A_P_Chehov
+15;62;514;2691;8;158;./data/A_P_Chehov\Беседа пьяного с трезвым чёртом (Чехов).txt;A_P_Chehov
+82;247;1670;8126;42;601;./data/A_P_Chehov\Беспокойный гость (Чехов).txt;A_P_Chehov
+8;48;122;653;1;57;./data/A_P_Chehov\Библиография (Чехов).txt;A_P_Chehov
+32;114;610;3056;10;203;./data/A_P_Chehov\Благодарный (Чехов).txt;A_P_Chehov
+25;84;1071;5569;6;272;./data/A_P_Chehov\Блины (Чехов).txt;A_P_Chehov
+41;140;1110;5757;12;377;./data/A_P_Chehov\Брак по расчёту (Чехов).txt;A_P_Chehov
+35;98;774;4044;13;263;./data/A_P_Chehov\Брак через 10—15 лет (Чехов).txt;A_P_Chehov
+18;98;474;2347;14;172;./data/A_P_Chehov\Братец (Чехов).txt;A_P_Chehov
+37;124;959;5193;17;310;./data/A_P_Chehov\Брожение умов (Чехов).txt;A_P_Chehov
+13;79;756;3760;9;236;./data/A_P_Chehov\Бумажник (Чехов).txt;A_P_Chehov
+40;113;1071;5675;7;325;./data/A_P_Chehov\В аптеке (Чехов).txt;A_P_Chehov
+47;285;2147;10657;32;739;./data/A_P_Chehov\В бане (Чехов).txt;A_P_Chehov
+87;295;1394;7141;43;563;./data/A_P_Chehov\В вагоне (Чехов, 1881).txt;A_P_Chehov
+25;72;503;2615;17;206;./data/A_P_Chehov\В вагоне (Чехов, 1885).txt;A_P_Chehov
+16;47;362;1871;4;112;./data/A_P_Chehov\В гостиной (Чехов).txt;A_P_Chehov
+19;81;580;3007;10;208;./data/A_P_Chehov\В ландо (Чехов).txt;A_P_Chehov
+40;99;999;4974;3;273;./data/A_P_Chehov\В море (Чехов).txt;A_P_Chehov
+24;105;1103;5665;5;322;./data/A_P_Chehov\В Москве на Трубной площади (Чехов).txt;A_P_Chehov
+22;116;707;3417;16;276;./data/A_P_Chehov\В номерах (Чехов).txt;A_P_Chehov
+32;102;729;3801;9;284;./data/A_P_Chehov\В пансионе (Чехов).txt;A_P_Chehov
+43;198;1453;7506;18;476;./data/A_P_Chehov\В Париж! (Чехов).txt;A_P_Chehov
+57;175;1226;5998;27;435;./data/A_P_Chehov\В потёмках (Чехов).txt;A_P_Chehov
+15;48;402;2066;4;124;./data/A_P_Chehov\В почтовом отделении (Чехов).txt;A_P_Chehov
+29;124;1047;5268;7;337;./data/A_P_Chehov\В приюте для неизлечимо больных и престарелых (Чехов).txt;A_P_Chehov
+84;282;3552;17054;35;1069;./data/A_P_Chehov\В родном углу (Чехов).txt;A_P_Chehov
+81;234;1740;8575;15;559;./data/A_P_Chehov\В рождественскую ночь (Чехов).txt;A_P_Chehov
+74;211;1476;7351;21;610;./data/A_P_Chehov\В сарае (Чехов).txt;A_P_Chehov
+56;272;2800;13033;18;856;./data/A_P_Chehov\В ссылке (Чехов).txt;A_P_Chehov
+59;142;1864;9979;17;510;./data/A_P_Chehov\В суде (Чехов).txt;A_P_Chehov
+48;162;2460;12733;9;656;./data/A_P_Chehov\В усадьбе (Чехов).txt;A_P_Chehov
+46;148;851;4398;20;309;./data/A_P_Chehov\В цирульне (Чехов).txt;A_P_Chehov
+28;113;711;3473;7;240;./data/A_P_Chehov\Ванька (Чехов, 1884).txt;A_P_Chehov
+22;85;1153;5693;2;268;./data/A_P_Chehov\Ванька (Чехов, 1886).txt;A_P_Chehov
+16;40;263;1392;7;114;./data/A_P_Chehov\Вверх по лестнице (Чехов).txt;A_P_Chehov
+128;403;3433;16886;41;1086;./data/A_P_Chehov\Ведьма (Чехов).txt;A_P_Chehov
+31;141;1081;5192;9;308;./data/A_P_Chehov\Верба (Чехов).txt;A_P_Chehov
+101;282;3794;19131;30;986;./data/A_P_Chehov\Верочка (Чехов).txt;A_P_Chehov
+29;93;1490;7740;7;391;./data/A_P_Chehov\Весной (Чехов, 1886).txt;A_P_Chehov
+4;39;490;2377;1;109;./data/A_P_Chehov\Весной (Чехов, 1887).txt;A_P_Chehov
+20;75;524;2604;12;166;./data/A_P_Chehov\Весь в дедушку (Чехов).txt;A_P_Chehov
+10;25;213;1342;0;79;./data/A_P_Chehov\Визитные карточки (Чехов).txt;A_P_Chehov
+35;123;984;5119;12;337;./data/A_P_Chehov\Винт (Чехов).txt;A_P_Chehov
+25;152;1018;5139;15;398;./data/A_P_Chehov\Водевиль (Чехов).txt;A_P_Chehov
+63;216;2065;10337;21;592;./data/A_P_Chehov\Волк (Чехов).txt;A_P_Chehov
+122;364;3723;18270;39;1098;./data/A_P_Chehov\Володя (Чехов).txt;A_P_Chehov
+99;286;3627;17743;31;1005;./data/A_P_Chehov\Володя большой и Володя маленький (Чехов).txt;A_P_Chehov
+4;4;16;74;4;8;./data/A_P_Chehov\Вопросы и ответы (Чехов).txt;A_P_Chehov
+41;153;1025;5138;20;346;./data/A_P_Chehov\Вор (Чехов).txt;A_P_Chehov
+40;143;1281;6571;11;383;./data/A_P_Chehov\Ворона (Чехов).txt;A_P_Chehov
+135;372;4821;23137;38;1358;./data/A_P_Chehov\Воры (Чехов).txt;A_P_Chehov
+49;168;1218;6453;19;430;./data/A_P_Chehov\Восклицательный знак (Чехов).txt;A_P_Chehov
+91;359;3933;19961;36;1104;./data/A_P_Chehov\Враги (Чехов).txt;A_P_Chehov
+4;4;74;437;0;15;./data/A_P_Chehov\Врачебные советы (Чехов).txt;A_P_Chehov
+12;78;876;4625;5;238;./data/A_P_Chehov\Встреча весны (Чехов).txt;A_P_Chehov
+1;1;14;91;0;3;./data/A_P_Chehov\Вывеска (Чехов).txt;A_P_Chehov
+47;130;1364;6568;14;418;./data/A_P_Chehov\Выигрышный билет (Чехов).txt;A_P_Chehov
+24;84;618;3252;4;187;./data/A_P_Chehov\Вынужденное заявление (Чехов).txt;A_P_Chehov
+18;44;248;1270;2;93;./data/A_P_Chehov\Гадальщики и гадальщицы (Чехов).txt;A_P_Chehov
+25;149;1051;5487;15;355;./data/A_P_Chehov\Герой-барыня (Чехов).txt;A_P_Chehov
+39;127;898;4401;22;330;./data/A_P_Chehov\Глупый француз (Чехов).txt;A_P_Chehov
+10;34;314;1617;3;82;./data/A_P_Chehov\Говорить или молчать (Чехов).txt;A_P_Chehov
+67;197;1096;5461;30;421;./data/A_P_Chehov\Гордый человек (Чехов).txt;A_P_Chehov
+35;195;1561;7603;18;503;./data/A_P_Chehov\Горе (Чехов).txt;A_P_Chehov
+24;111;897;4691;13;303;./data/A_P_Chehov\Господа обыватели (Чехов).txt;A_P_Chehov
+44;164;1070;5561;13;381;./data/A_P_Chehov\Гость (Чехов).txt;A_P_Chehov
+10;53;404;1843;4;133;./data/A_P_Chehov\Грач (Чехов).txt;A_P_Chehov
+9;41;239;1185;0;89;./data/A_P_Chehov\Гречневая каша сама себя хвалит (Чехов).txt;A_P_Chehov
+48;172;1667;8425;8;389;./data/A_P_Chehov\Грешник из Толедо (Чехов).txt;A_P_Chehov
+32;90;895;4378;8;246;./data/A_P_Chehov\Гриша (Чехов).txt;A_P_Chehov
+126;385;3791;18448;41;1193;./data/A_P_Chehov\Гусев (Чехов).txt;A_P_Chehov
+8;36;375;1957;3;121;./data/A_P_Chehov\Гусиный разговор (Чехов).txt;A_P_Chehov
+47;123;987;5115;14;337;./data/A_P_Chehov\Дамы (Чехов).txt;A_P_Chehov
+20;66;495;2497;3;173;./data/A_P_Chehov\Дачники (Чехов).txt;A_P_Chehov
+13;60;698;3700;0;203;./data/A_P_Chehov\Дачница (Чехов).txt;A_P_Chehov
+14;24;145;722;1;61;./data/A_P_Chehov\Дачное удовольствие (Чехов).txt;A_P_Chehov
+16;38;475;2603;0;117;./data/A_P_Chehov\Дачные правила (Чехов).txt;A_P_Chehov
+22;98;837;4150;11;309;./data/A_P_Chehov\Два газетчика (Чехов).txt;A_P_Chehov
+8;44;444;2248;3;106;./data/A_P_Chehov\Два письма (Чехов).txt;A_P_Chehov
+17;48;483;2723;0;141;./data/A_P_Chehov\Два романа (Чехов).txt;A_P_Chehov
+91;349;3109;15395;19;777;./data/A_P_Chehov\Два скандала (Чехов).txt;A_P_Chehov
+113;333;1885;9587;56;728;./data/A_P_Chehov\Двадцать девятое июня (Чехов).txt;A_P_Chehov
+11;69;328;1693;3;118;./data/A_P_Chehov\Двадцать шесть (Чехов).txt;A_P_Chehov
+22;90;589;2802;8;194;./data/A_P_Chehov\Двое в одном (Чехов).txt;A_P_Chehov
+9;26;231;1199;0;70;./data/A_P_Chehov\Делец (Чехов).txt;A_P_Chehov
+11;36;309;1684;1;100;./data/A_P_Chehov\Дело о 1884 годе (Чехов).txt;A_P_Chehov
+63;204;1688;8527;17;526;./data/A_P_Chehov\День за городом (Чехов).txt;A_P_Chehov
+34;145;885;4315;16;336;./data/A_P_Chehov\Депутат, или Повесть о том, как у Дездемонова 25 рублей пропало (Чехов).txt;A_P_Chehov
+40;212;1163;5379;32;458;./data/A_P_Chehov\Дипломат (Чехов).txt;A_P_Chehov
+28;140;912;4575;14;374;./data/A_P_Chehov\Длинный язык (Чехов).txt;A_P_Chehov
+26;69;456;2318;4;167;./data/A_P_Chehov\Добродетельный кабатчик (Чехов).txt;A_P_Chehov
+12;59;375;1799;2;126;./data/A_P_Chehov\Добрый знакомый (Чехов).txt;A_P_Chehov
+42;115;1011;4666;10;285;./data/A_P_Chehov\Добрый немец (Чехов).txt;A_P_Chehov
+63;187;1524;7400;21;464;./data/A_P_Chehov\Доктор (Чехов).txt;A_P_Chehov
+117;362;5605;27253;23;1501;./data/A_P_Chehov\Дом с мезонином (Чехов).txt;A_P_Chehov
+73;255;2751;13814;25;797;./data/A_P_Chehov\Дома (Чехов).txt;A_P_Chehov
+10;31;312;1593;0;75;./data/A_P_Chehov\Домашние средства (Чехов).txt;A_P_Chehov
+2;7;87;500;1;17;./data/A_P_Chehov\Донесение (Чехов).txt;A_P_Chehov
+10;26;75;362;26;37;./data/A_P_Chehov\Дополнительные вопросы к личным картам статистической переписи, предлагаемые Антошей Чехонте (Чехов).txt;A_P_Chehov
+32;126;665;3179;17;276;./data/A_P_Chehov\Дорогая собака (Чехов).txt;A_P_Chehov
+53;123;1889;9527;5;492;./data/A_P_Chehov\Дорогие уроки (Чехов).txt;A_P_Chehov
+42;179;1015;4964;17;361;./data/A_P_Chehov\Дочь Альбиона (Чехов).txt;A_P_Chehov
+32;134;934;4604;10;313;./data/A_P_Chehov\Дочь Коммерции советника (Чехов).txt;A_P_Chehov
+47;165;1365;7042;15;491;./data/A_P_Chehov\Драма (Чехов, 1887).txt;A_P_Chehov
+22;63;514;2587;9;170;./data/A_P_Chehov\Драматург (Чехов).txt;A_P_Chehov
+13;108;760;3531;11;248;./data/A_P_Chehov\Дура, или Капитан в отставке (Чехов).txt;A_P_Chehov
+37;138;787;3824;13;333;./data/A_P_Chehov\Дурак (Чехов).txt;A_P_Chehov
+96;284;3850;18484;25;1017;./data/A_P_Chehov\Душечка (Чехов).txt;A_P_Chehov
+46;155;1251;6092;13;408;./data/A_P_Chehov\Егерь (Чехов).txt;A_P_Chehov
+147;451;3565;18302;79;1195;./data/A_P_Chehov\Жёны артистов (Чехов).txt;A_P_Chehov
+333;1115;13500;65699;98;3886;./data/A_P_Chehov\Жена (Чехов).txt;A_P_Chehov
+20;80;352;1827;5;134;./data/A_P_Chehov\Жених (Чехов).txt;A_P_Chehov
+62;208;1257;6127;25;494;./data/A_P_Chehov\Жених и папенька (Чехов).txt;A_P_Chehov
+2;26;285;1561;7;86;./data/A_P_Chehov\Женский тост (Чехов).txt;A_P_Chehov
+13;123;1086;5385;13;382;./data/A_P_Chehov\Женское счастье (Чехов).txt;A_P_Chehov
+49;164;1036;5193;19;352;./data/A_P_Chehov\Женщина без предрассудков (Чехов).txt;A_P_Chehov
+14;107;700;3683;10;245;./data/A_P_Chehov\Живая хронология (Чехов).txt;A_P_Chehov
+357;1542;9716;48865;172;3156;./data/A_P_Chehov\Живой товар (Чехов).txt;A_P_Chehov
+4;55;726;3877;0;158;./data/A_P_Chehov\Жизнеописания достопримечательных современников (Чехов).txt;A_P_Chehov
+7;262;856;3949;69;375;./data/A_P_Chehov\Жизнь в вопросах и восклицаниях (Чехов).txt;A_P_Chehov
+13;19;318;1513;1;89;./data/A_P_Chehov\Жизнь прекрасна! (Чехов).txt;A_P_Chehov
+48;170;1305;6488;19;476;./data/A_P_Chehov\Жилец (Чехов).txt;A_P_Chehov
+78;209;1485;6993;39;508;./data/A_P_Chehov\Житейская мелочь (Чехов).txt;A_P_Chehov
+36;120;809;4317;3;287;./data/A_P_Chehov\Житейские невзгоды (Чехов).txt;A_P_Chehov
+39;176;1282;6338;34;434;./data/A_P_Chehov\За двумя зайцами погонишься, ни одного не поймаешь (Чехов).txt;A_P_Chehov
+55;183;1754;9133;34;540;./data/A_P_Chehov\За яблочки (Чехов).txt;A_P_Chehov
+48;169;1068;5269;11;415;./data/A_P_Chehov\Заблудшие (Чехов).txt;A_P_Chehov
+42;234;985;5003;21;451;./data/A_P_Chehov\Забыл!! (Чехов).txt;A_P_Chehov
+14;17;248;1388;0;79;./data/A_P_Chehov\Завещание старого, 1883-го года (Чехов).txt;A_P_Chehov
+13;94;581;3116;9;221;./data/A_P_Chehov\Загадочная натура (Чехов).txt;A_P_Chehov
+21;64;611;2948;6;201;./data/A_P_Chehov\Задача (Чехов, 1884).txt;A_P_Chehov
+52;179;2000;10375;18;509;./data/A_P_Chehov\Задача (Чехов, 1887).txt;A_P_Chehov
+8;21;218;1116;8;58;./data/A_P_Chehov\Задачи сумасшедшего математика (Чехов).txt;A_P_Chehov
+67;186;1684;8806;9;530;./data/A_P_Chehov\Заказ (Чехов).txt;A_P_Chehov
+19;105;625;3134;11;236;./data/A_P_Chehov\Закуска (Чехов).txt;A_P_Chehov
+18;20;206;1015;0;55;./data/A_P_Chehov\Записка (Чехов).txt;A_P_Chehov
+3;13;396;2230;2;77;./data/A_P_Chehov\Затмение Луны (Чехов).txt;A_P_Chehov
+104;476;4248;21609;25;1155;./data/A_P_Chehov\Зелёная коса (Чехов).txt;A_P_Chehov
+50;172;1179;5866;10;406;./data/A_P_Chehov\Зеркало (Чехов).txt;A_P_Chehov
+45;170;1789;8754;9;479;./data/A_P_Chehov\Зиночка (Чехов).txt;A_P_Chehov
+11;37;213;1044;2;69;./data/A_P_Chehov\Злодеи и г. Егоров (Чехов).txt;A_P_Chehov
+19;77;667;3342;5;194;./data/A_P_Chehov\Злой мальчик (Чехов).txt;A_P_Chehov
+57;147;1063;5031;31;375;./data/A_P_Chehov\Злоумышленник (Чехов).txt;A_P_Chehov
+33;95;1183;5996;6;306;./data/A_P_Chehov\Злоумышленники (Чехов).txt;A_P_Chehov
+41;101;1002;4841;14;312;./data/A_P_Chehov\Знакомый мужчина (Чехов).txt;A_P_Chehov
+11;27;167;820;2;65;./data/A_P_Chehov\Знамение времени (Чехов).txt;A_P_Chehov
+15;42;498;2734;3;118;./data/A_P_Chehov\И прекрасное должно иметь пределы (Чехов).txt;A_P_Chehov
+20;95;550;2619;3;148;./data/A_P_Chehov\И то и сё (Письма и телеграммы) (Чехов).txt;A_P_Chehov
+32;98;431;2107;4;188;./data/A_P_Chehov\И то и сё (Поэзия и проза) (Чехов).txt;A_P_Chehov
+66;196;1464;7483;29;510;./data/A_P_Chehov\Иван Матвеич (Чехов).txt;A_P_Chehov
+27;88;605;3442;12;168;./data/A_P_Chehov\Идеальный экзамен (Чехов).txt;A_P_Chehov
+2;20;245;1395;1;66;./data/A_P_Chehov\Идиллия (Чехов).txt;A_P_Chehov
+30;121;588;2999;10;214;./data/A_P_Chehov\Идиллия — увы и ах! (Чехов).txt;A_P_Chehov
+31;120;1107;5282;18;347;./data/A_P_Chehov\Из воспоминаний идеалиста (Чехов).txt;A_P_Chehov
+7;45;276;1315;3;97;./data/A_P_Chehov\Из дневника одной девицы (Чехов).txt;A_P_Chehov
+19;80;506;2546;2;158;./data/A_P_Chehov\Из дневника помощника бухгалтера (Чехов).txt;A_P_Chehov
+6;13;209;1127;1;57;./data/A_P_Chehov\Из записной книжки старого педагога (Чехов).txt;A_P_Chehov
+86;302;2759;13880;19;835;./data/A_P_Chehov\Из записок вспыльчивого человека (Чехов).txt;A_P_Chehov
+47;229;1793;8839;40;601;./data/A_P_Chehov\Из огня да в полымя (Чехов).txt;A_P_Chehov
+270;895;9566;47822;95;2844;./data/A_P_Chehov\Именины (Чехов).txt;A_P_Chehov
+58;133;944;4615;21;353;./data/A_P_Chehov\Индейский петух (Чехов).txt;A_P_Chehov
+55;203;1336;6420;36;485;./data/A_P_Chehov\Интеллигентное бревно (Чехов).txt;A_P_Chehov
+25;98;1203;6544;5;318;./data/A_P_Chehov\Интриги (Чехов).txt;A_P_Chehov
+159;404;5352;26317;47;1579;./data/A_P_Chehov\Ионыч (Чехов).txt;A_P_Chehov
+27;138;951;4629;15;320;./data/A_P_Chehov\Исповедь (Чехов).txt;A_P_Chehov
+56;273;1874;9112;13;614;./data/A_P_Chehov\Исповедь, или Оля, Женя, Зоя (Чехов).txt;A_P_Chehov
+32;82;989;5106;3;277;./data/A_P_Chehov\История одного торгового предприятия (Чехов).txt;A_P_Chehov
+6;26;227;1161;0;61;./data/A_P_Chehov\К свадебному Сезону (Чехов).txt;A_P_Chehov
+31;132;1232;6156;8;362;./data/A_P_Chehov\К сведению мужей (Чехов).txt;A_P_Chehov
+7;34;472;2764;0;103;./data/A_P_Chehov\К характеристике народов (Чехов).txt;A_P_Chehov
+36;106;579;3068;4;251;./data/A_P_Chehov\Кавардак в Риме (Чехов).txt;A_P_Chehov
+71;173;1428;6572;21;455;./data/A_P_Chehov\Казак (Чехов).txt;A_P_Chehov
+41;338;1486;7987;3;680;./data/A_P_Chehov\Календарь «Будильника» на 1882 год (Чехов).txt;A_P_Chehov
+50;204;1550;7561;17;560;./data/A_P_Chehov\Калхас (Чехов).txt;A_P_Chehov
+14;41;507;2468;2;148;./data/A_P_Chehov\Каникулярные работы институтки Наденьки N. (Чехов).txt;A_P_Chehov
+30;103;606;2925;20;256;./data/A_P_Chehov\Канитель (Чехов).txt;A_P_Chehov
+53;217;1562;7999;22;521;./data/A_P_Chehov\Капитанский мундир (Чехов).txt;A_P_Chehov
+30;89;616;3193;14;240;./data/A_P_Chehov\Картинки из недавнего прошлого (Чехов).txt;A_P_Chehov
+34;153;1056;5291;22;354;./data/A_P_Chehov\Клевета (Чехов).txt;A_P_Chehov
+76;290;3654;18495;28;952;./data/A_P_Chehov\Княгиня (Чехов).txt;A_P_Chehov
+12;44;286;1376;3;90;./data/A_P_Chehov\Кое-что (1) (Чехов).txt;A_P_Chehov
+18;79;462;2128;7;166;./data/A_P_Chehov\Кое-что об А. С. Даргомыжском (Чехов).txt;A_P_Chehov
+9;26;154;766;1;66;./data/A_P_Chehov\Козёл или негодяй (Чехов).txt;A_P_Chehov
+15;44;353;1676;3;97;./data/A_P_Chehov\Коллекция (Чехов).txt;A_P_Chehov
+20;79;483;2419;8;179;./data/A_P_Chehov\Комик (Чехов).txt;A_P_Chehov
+36;85;409;2358;5;165;./data/A_P_Chehov\Комические рекламы и объявления (Чехов).txt;A_P_Chehov
+4;11;187;1017;0;55;./data/A_P_Chehov\Конкурс (Чехов).txt;A_P_Chehov
+27;81;482;2756;0;189;./data/A_P_Chehov\Контора объявлений Антоши Ч. (Чехов).txt;A_P_Chehov
+48;165;1297;6585;15;407;./data/A_P_Chehov\Контрабас и флейта (Чехов).txt;A_P_Chehov
+3;17;180;1065;0;63;./data/A_P_Chehov\Контракт 1884 года с человечеством (Чехов).txt;A_P_Chehov
+29;142;1235;6052;15;371;./data/A_P_Chehov\Конь и трепетная лань (Чехов).txt;A_P_Chehov
+168;643;4481;23424;113;1579;./data/A_P_Chehov\Корреспондент (Чехов).txt;A_P_Chehov
+37;159;905;4531;18;316;./data/A_P_Chehov\Кот (Чехов).txt;A_P_Chehov
+80;256;1731;8456;37;602;./data/A_P_Chehov\Который из трёх (Чехов).txt;A_P_Chehov
+117;389;3904;19802;31;1124;./data/A_P_Chehov\Кошмар (Чехов).txt;A_P_Chehov
+44;118;2504;12475;5;569;./data/A_P_Chehov\Красавицы (Чехов, 1888).txt;A_P_Chehov
+11;30;548;2699;1;193;./data/A_P_Chehov\Красавицы (Чехов, неоконченное).txt;A_P_Chehov
+4;30;576;3239;0;133;./data/A_P_Chehov\Красная горка (Чехов).txt;A_P_Chehov
+18;66;453;2653;3;175;./data/A_P_Chehov\Краткая анатомия человека (Чехов).txt;A_P_Chehov
+11;23;100;509;9;46;./data/A_P_Chehov\Крест (Чехов).txt;A_P_Chehov
+24;83;801;3850;11;209;./data/A_P_Chehov\Кривое зеркало (Чехов).txt;A_P_Chehov
+55;210;1481;7509;37;525;./data/A_P_Chehov\Критик (Чехов).txt;A_P_Chehov
+56;195;3244;15541;9;867;./data/A_P_Chehov\Крыжовник (Чехов).txt;A_P_Chehov
+35;127;993;5388;12;310;./data/A_P_Chehov\Кто виноват (Чехов).txt;A_P_Chehov
+33;121;938;4807;8;284;./data/A_P_Chehov\Кулачье гнездо (Чехов).txt;A_P_Chehov
+46;161;1384;6971;15;435;./data/A_P_Chehov\Кухарка женится (Чехов).txt;A_P_Chehov
+37;96;1095;5712;11;330;./data/A_P_Chehov\Лев и Солнце (Чехов).txt;A_P_Chehov
+67;202;1705;9095;25;499;./data/A_P_Chehov\Летающие острова (Чехов).txt;A_P_Chehov
+48;214;1214;6178;24;435;./data/A_P_Chehov\Либерал (Чехов).txt;A_P_Chehov
+29;124;814;4612;10;344;./data/A_P_Chehov\Либеральный душка (Чехов).txt;A_P_Chehov
+17;88;497;2467;8;190;./data/A_P_Chehov\Лист (Чехов).txt;A_P_Chehov
+13;21;124;923;0;94;./data/A_P_Chehov\Литературная табель о рангах (Чехов).txt;A_P_Chehov
+69;216;1691;8680;34;603;./data/A_P_Chehov\Лишние люди (Чехов).txt;A_P_Chehov
+54;179;904;4681;23;390;./data/A_P_Chehov\Лошадиная фамилия (Чехов).txt;A_P_Chehov
+36;135;1781;9059;10;444;./data/A_P_Chehov\Любовь (Чехов).txt;A_P_Chehov
+52;172;1203;6009;20;434;./data/A_P_Chehov\Мёртвое тело (Чехов).txt;A_P_Chehov
+11;27;183;1002;3;48;./data/A_P_Chehov\Майонез (Чехов).txt;A_P_Chehov
+68;178;1791;8879;19;523;./data/A_P_Chehov\Мальчики (Чехов).txt;A_P_Chehov
+12;44;286;1376;3;90;./data/A_P_Chehov\Мамаша и г. Лентовский (Чехов).txt;A_P_Chehov
+26;79;809;4084;6;224;./data/A_P_Chehov\Марья Ивановна (Чехов).txt;A_P_Chehov
+56;214;1302;6892;28;506;./data/A_P_Chehov\Маска (Чехов).txt;A_P_Chehov
+7;17;181;930;0;48;./data/A_P_Chehov\Масленичные правила дисциплины (Чехов).txt;A_P_Chehov
+29;99;907;4790;9;270;./data/A_P_Chehov\Мелюзга (Чехов).txt;A_P_Chehov
+78;234;1709;8447;22;498;./data/A_P_Chehov\Месть (Чехов, 1882).txt;A_P_Chehov
+34;116;1096;5718;9;335;./data/A_P_Chehov\Месть (Чехов, 1886).txt;A_P_Chehov
+40;124;763;3636;10;293;./data/A_P_Chehov\Месть женщины (Чехов).txt;A_P_Chehov
+53;220;2489;12740;18;712;./data/A_P_Chehov\Мечты (Чехов).txt;A_P_Chehov
+8;42;271;1308;8;75;./data/A_P_Chehov\Мнения по поводу шляпной катастрофы (Чехов).txt;A_P_Chehov
+12;88;714;4044;0;196;./data/A_P_Chehov\Много бумаги (Чехов).txt;A_P_Chehov
+17;149;1976;10326;4;482;./data/A_P_Chehov\Мои жёны (Чехов).txt;A_P_Chehov
+6;14;157;790;4;34;./data/A_P_Chehov\Мои остроты и изречения (Чехов).txt;A_P_Chehov
+15;23;233;1184;0;53;./data/A_P_Chehov\Мои чины и титулы (Чехов).txt;A_P_Chehov
+15;45;546;2760;0;149;./data/A_P_Chehov\Мой Домострой (Чехов).txt;A_P_Chehov
+31;107;909;4595;19;324;./data/A_P_Chehov\Мой разговор с почтмейстером (Чехов).txt;A_P_Chehov
+1;22;270;1380;0;73;./data/A_P_Chehov\Мой юбилей (Чехов).txt;A_P_Chehov
+13;63;328;1758;11;125;./data/A_P_Chehov\Молодой человек (Чехов).txt;A_P_Chehov
+47;161;1745;9117;5;572;./data/A_P_Chehov\Мороз (Чехов).txt;A_P_Chehov
+36;148;850;4303;21;275;./data/A_P_Chehov\Мошенники поневоле (Чехов).txt;A_P_Chehov
+2;21;206;983;1;61;./data/A_P_Chehov\Моя «она» (Чехов).txt;A_P_Chehov
+18;48;383;1946;6;135;./data/A_P_Chehov\Моя беседа с Эдисоном (Чехов).txt;A_P_Chehov
+18;79;599;2905;14;172;./data/A_P_Chehov\Моя Нана (Чехов).txt;A_P_Chehov
+38;122;1345;7015;10;408;./data/A_P_Chehov\Мститель (Чехов).txt;A_P_Chehov
+36;112;1402;7155;11;392;./data/A_P_Chehov\Муж (Чехов).txt;A_P_Chehov
+9;12;102;516;2;70;./data/A_P_Chehov\Мысли читателя газет и журналов (Чехов).txt;A_P_Chehov
+25;119;916;4518;12;303;./data/A_P_Chehov\Мыслитель (Чехов).txt;A_P_Chehov
+51;205;1239;6706;25;433;./data/A_P_Chehov\На волчьей садке (Чехов).txt;A_P_Chehov
+26;86;419;2260;8;161;./data/A_P_Chehov\На гвозде (Чехов).txt;A_P_Chehov
+32;97;568;2779;14;222;./data/A_P_Chehov\На гулянье в Сокольниках (Чехов).txt;A_P_Chehov
+64;196;1362;6594;23;496;./data/A_P_Chehov\На даче (Чехов).txt;A_P_Chehov
+22;73;587;2940;8;182;./data/A_P_Chehov\На кладбище (Чехов).txt;A_P_Chehov
+42;123;639;3320;10;250;./data/A_P_Chehov\На магнетическом сеансе (Чехов).txt;A_P_Chehov
+59;188;1667;8155;15;522;./data/A_P_Chehov\На мельнице (Чехов).txt;A_P_Chehov
+18;68;501;2443;1;149;./data/A_P_Chehov\На охоте (Чехов).txt;A_P_Chehov
+74;205;2479;12086;17;739;./data/A_P_Chehov\На подводе (Чехов).txt;A_P_Chehov
+37;169;1961;9930;7;496;./data/A_P_Chehov\На реке (Чехов).txt;A_P_Chehov
+52;128;1321;6599;10;405;./data/A_P_Chehov\На святках (Чехов).txt;A_P_Chehov
+39;104;1401;6972;10;356;./data/A_P_Chehov\На страстной неделе (Чехов).txt;A_P_Chehov
+39;137;1059;5303;14;357;./data/A_P_Chehov\На чужбине (Чехов).txt;A_P_Chehov
+42;129;910;4994;10;342;./data/A_P_Chehov\Надлежащие меры (Чехов).txt;A_P_Chehov
+3;9;87;467;1;27;./data/A_P_Chehov\Надул (Чехов).txt;A_P_Chehov
+12;88;849;4219;7;221;./data/A_P_Chehov\Наивный леший (Чехов).txt;A_P_Chehov
+49;175;1310;6664;24;480;./data/A_P_Chehov\Накануне поста (Чехов).txt;A_P_Chehov
+58;222;1279;6386;23;509;./data/A_P_Chehov\Налим (Чехов).txt;A_P_Chehov
+37;108;547;2726;7;217;./data/A_P_Chehov\Нарвался (Чехов).txt;A_P_Chehov
+54;186;1695;8293;13;505;./data/A_P_Chehov\Нахлебники (Чехов).txt;A_P_Chehov
+3;19;137;721;0;40;./data/A_P_Chehov\Находчивость г. Родона (Чехов).txt;A_P_Chehov
+32;115;845;4375;10;262;./data/A_P_Chehov\Начальник станции (Чехов).txt;A_P_Chehov
+20;74;497;2480;4;190;./data/A_P_Chehov\Не в духе (Чехов).txt;A_P_Chehov
+30;155;1125;5689;12;395;./data/A_P_Chehov\Не судьба! (Чехов).txt;A_P_Chehov
+6;12;98;580;1;21;./data/A_P_Chehov\Не тлетворные мысли (Чехов).txt;A_P_Chehov
+158;465;5623;27249;28;1717;./data/A_P_Chehov\Невеста (Чехов).txt;A_P_Chehov
+44;218;1398;7042;21;539;./data/A_P_Chehov\Невидимые миру слезы (Чехов).txt;A_P_Chehov
+60;178;1370;7399;15;470;./data/A_P_Chehov\Недобрая ночь (Чехов).txt;A_P_Chehov
+72;200;1294;6438;30;516;./data/A_P_Chehov\Недоброе дело (Чехов).txt;A_P_Chehov
+51;159;1386;6701;19;437;./data/A_P_Chehov\Ненастье (Чехов).txt;A_P_Chehov
+912;3324;24510;125325;390;7424;./data/A_P_Chehov\Ненужная победа (Чехов).txt;A_P_Chehov
+12;27;187;917;2;74;./data/A_P_Chehov\Необходимое предисловие (Чехов).txt;A_P_Chehov
+47;126;1158;5996;4;368;./data/A_P_Chehov\Необыкновенный (Чехов).txt;A_P_Chehov
+39;118;1077;5401;23;356;./data/A_P_Chehov\Неосторожность (Чехов).txt;A_P_Chehov
+80;214;1790;8843;28;591;./data/A_P_Chehov\Неприятная история (Чехов).txt;A_P_Chehov
+152;512;5678;28286;71;1601;./data/A_P_Chehov\Неприятность (Чехов).txt;A_P_Chehov
+34;133;1044;5318;16;339;./data/A_P_Chehov\Нервы (Чехов).txt;A_P_Chehov
+4;14;155;876;0;37;./data/A_P_Chehov\Несколько мыслей о душе (Чехов).txt;A_P_Chehov
+12;32;299;1631;4;83;./data/A_P_Chehov\Несообразные мысли (Чехов).txt;A_P_Chehov
+109;344;3813;18867;38;1089;./data/A_P_Chehov\Несчастье (Чехов).txt;A_P_Chehov
+24;77;467;2391;5;183;./data/A_P_Chehov\Неудача (Чехов).txt;A_P_Chehov
+16;34;116;592;4;55;./data/A_P_Chehov\Неудачный визит (Чехов).txt;A_P_Chehov
+40;148;840;4630;8;322;./data/A_P_Chehov\Нечистые трагики и прокажённые драматурги (Чехов).txt;A_P_Chehov
+13;16;207;1241;0;52;./data/A_P_Chehov\Нечто серьёзное (Чехов).txt;A_P_Chehov
+35;153;1368;6605;18;412;./data/A_P_Chehov\Ниночка (Чехов).txt;A_P_Chehov
+50;161;1478;7294;20;460;./data/A_P_Chehov\Нищий (Чехов).txt;A_P_Chehov
+2;9;67;425;0;12;./data/A_P_Chehov\Новая болезнь и старое средство (Чехов).txt;A_P_Chehov
+115;377;4036;19472;27;1268;./data/A_P_Chehov\Новая дача (Чехов).txt;A_P_Chehov
+11;65;563;3117;3;148;./data/A_P_Chehov\Новейший письмовник (Чехов).txt;A_P_Chehov
+31;107;669;3494;12;231;./data/A_P_Chehov\Новогодние великомученики (Чехов).txt;A_P_Chehov
+61;192;1387;6995;26;501;./data/A_P_Chehov\Новогодняя пытка (Чехов).txt;A_P_Chehov
+26;91;990;5023;2;303;./data/A_P_Chehov\Ночь на кладбище (Чехов).txt;A_P_Chehov
+53;177;1388;6987;12;475;./data/A_P_Chehov\Ночь перед судом (Чехов).txt;A_P_Chehov
+48;150;926;4980;9;367;./data/A_P_Chehov\Ну, публика! (Чехов).txt;A_P_Chehov
+7;101;1198;5980;3;311;./data/A_P_Chehov\Нытьё (Чехов).txt;A_P_Chehov
+4;25;234;1282;2;73;./data/A_P_Chehov\О бренности (Чехов).txt;A_P_Chehov
+18;88;618;3181;12;226;./data/A_P_Chehov\О драме (Чехов).txt;A_P_Chehov
+8;42;616;3363;0;132;./data/A_P_Chehov\О женщинах (Чехов).txt;A_P_Chehov
+18;69;439;2307;10;161;./data/A_P_Chehov\О женщины, женщины! (Чехов).txt;A_P_Chehov
+48;150;3056;14412;13;704;./data/A_P_Chehov\О любви (Чехов).txt;A_P_Chehov
+8;101;1646;9210;1;371;./data/A_P_Chehov\О марте. Об апреле. О мае. Об июне и июле. Об августе (Чехов).txt;A_P_Chehov
+28;122;885;4183;11;287;./data/A_P_Chehov\О том, как я в законный брак вступил (Чехов).txt;A_P_Chehov
+11;24;218;1139;2;64;./data/A_P_Chehov\О том, о сём (Чехов).txt;A_P_Chehov
+29;156;1286;6481;5;427;./data/A_P_Chehov\Оба лучше (Чехов).txt;A_P_Chehov
+5;16;159;849;0;38;./data/A_P_Chehov\Обер-верхи (Чехов).txt;A_P_Chehov
+17;139;1302;6287;12;394;./data/A_P_Chehov\Общее образование (Чехов).txt;A_P_Chehov
+62;197;1686;8574;18;515;./data/A_P_Chehov\Обыватели (Чехов).txt;A_P_Chehov
+214;863;11688;57878;73;3030;./data/A_P_Chehov\Огни (Чехов).txt;A_P_Chehov
+34;220;1915;9351;25;601;./data/A_P_Chehov\Один из многих (Чехов).txt;A_P_Chehov
+57;227;2364;11848;12;604;./data/A_P_Chehov\Он и она (Чехов).txt;A_P_Chehov
+104;401;2795;14018;43;904;./data/A_P_Chehov\Он понял! (Чехов).txt;A_P_Chehov
+26;118;757;3804;12;255;./data/A_P_Chehov\Опекун (Чехов).txt;A_P_Chehov
+25;89;914;4937;8;273;./data/A_P_Chehov\Оратор (Чехов).txt;A_P_Chehov
+29;101;830;4447;1;251;./data/A_P_Chehov\Орден (Чехов).txt;A_P_Chehov
+58;251;1625;8021;24;538;./data/A_P_Chehov\Осенью (Чехов).txt;A_P_Chehov
+58;200;1523;7643;12;549;./data/A_P_Chehov\От нечего делать (Чехов).txt;A_P_Chehov
+8;29;205;1122;1;63;./data/A_P_Chehov\Отвергнутая любовь (Чехов).txt;A_P_Chehov
+70;266;2223;10463;16;727;./data/A_P_Chehov\Отец (Чехов).txt;A_P_Chehov
+41;153;1080;5446;34;385;./data/A_P_Chehov\Отец семейства (Чехов).txt;A_P_Chehov
+55;174;1336;6508;20;430;./data/A_P_Chehov\Отрава (Чехов).txt;A_P_Chehov
+6;34;396;2047;3;105;./data/A_P_Chehov\Отрывок (Чехов).txt;A_P_Chehov
+17;66;545;2787;3;140;./data/A_P_Chehov\Отставной раб (Чехов).txt;A_P_Chehov
+41;137;1416;7528;17;417;./data/A_P_Chehov\Панихида (Чехов).txt;A_P_Chehov
+86;315;1633;8077;43;661;./data/A_P_Chehov\Папаша (Чехов).txt;A_P_Chehov
+43;167;2145;10837;8;488;./data/A_P_Chehov\Пари (Чехов).txt;A_P_Chehov
+43;210;2014;10358;32;627;./data/A_P_Chehov\Пассажир 1-го класса (Чехов).txt;A_P_Chehov
+13;54;418;2326;0;113;./data/A_P_Chehov\Патриот своего отечества (Чехов).txt;A_P_Chehov
+49;180;1279;6716;12;473;./data/A_P_Chehov\Певчие (Чехов).txt;A_P_Chehov
+60;227;1562;7996;34;552;./data/A_P_Chehov\Первый дебют (Чехов).txt;A_P_Chehov
+55;163;1292;6962;12;456;./data/A_P_Chehov\Первый любовник (Чехов).txt;A_P_Chehov
+21;109;723;3694;4;261;./data/A_P_Chehov\Перед затмением (Чехов).txt;A_P_Chehov
+16;198;1416;6841;27;423;./data/A_P_Chehov\Перед свадьбой (Чехов).txt;A_P_Chehov
+18;59;300;1568;9;121;./data/A_P_Chehov\Пережитое (Чехов).txt;A_P_Chehov
+86;309;4524;23006;21;1137;./data/A_P_Chehov\Перекати-поле (Чехов).txt;A_P_Chehov
+70;239;2021;10125;35;659;./data/A_P_Chehov\Переполох (Чехов).txt;A_P_Chehov
+11;24;182;1116;0;44;./data/A_P_Chehov\Перепутанные объявления (Чехов).txt;A_P_Chehov
+25;93;979;4968;9;274;./data/A_P_Chehov\Персона (Чехов).txt;A_P_Chehov
+190;594;3255;17424;77;1259;./data/A_P_Chehov\Петров день (Чехов).txt;A_P_Chehov
+68;233;3008;14343;20;947;./data/A_P_Chehov\Печенег (Чехов).txt;A_P_Chehov
+29;106;932;4900;8;297;./data/A_P_Chehov\Писатель (Чехов).txt;A_P_Chehov
+10;44;418;2174;2;109;./data/A_P_Chehov\Письма (Чехов).txt;A_P_Chehov
+102;388;3281;16113;60;1076;./data/A_P_Chehov\Письмо (Чехов, 1887).txt;A_P_Chehov
+19;113;1607;7960;10;399;./data/A_P_Chehov\Письмо (Чехов, конец 1880-х — начало 1890-х годов).txt;A_P_Chehov
+5;36;295;1460;1;100;./data/A_P_Chehov\Письмо в редакцию (Чехов).txt;A_P_Chehov
+1;16;99;535;0;24;./data/A_P_Chehov\Письмо к репортёру (Чехов).txt;A_P_Chehov
+4;89;1307;6789;8;212;./data/A_P_Chehov\Письмо к учёному соседу (Чехов).txt;A_P_Chehov
+8;9;104;503;0;38;./data/A_P_Chehov\Плоды долгих размышлений (Чехов).txt;A_P_Chehov
+120;354;4593;22419;30;1488;./data/A_P_Chehov\По делам службы (Чехов).txt;A_P_Chehov
+13;53;496;2627;2;159;./data/A_P_Chehov\По-американски (Чехов).txt;A_P_Chehov
+66;168;1340;6948;32;450;./data/A_P_Chehov\Полинька (Чехов).txt;A_P_Chehov
+50;208;1141;5647;25;465;./data/A_P_Chehov\После бенефиса (Чехов).txt;A_P_Chehov
+20;59;882;4182;2;226;./data/A_P_Chehov\После театра (Чехов).txt;A_P_Chehov
+54;159;1258;6359;21;409;./data/A_P_Chehov\Последняя могиканша (Чехов).txt;A_P_Chehov
+103;386;5495;28432;33;1367;./data/A_P_Chehov\Поцелуй (Чехов).txt;A_P_Chehov
+54;168;1629;8378;14;454;./data/A_P_Chehov\Почта (Чехов).txt;A_P_Chehov
+20;70;836;4674;1;233;./data/A_P_Chehov\Правила для начинающих авторов (Чехов).txt;A_P_Chehov
+45;159;910;4627;16;349;./data/A_P_Chehov\Праздничная повинность (Чехов).txt;A_P_Chehov
+12;33;352;1893;1;84;./data/A_P_Chehov\Праздничные (Чехов).txt;A_P_Chehov
+21;41;313;1701;3;110;./data/A_P_Chehov\Предложение (рассказ, Чехов).txt;A_P_Chehov
+3;5;123;740;0;23;./data/A_P_Chehov\Предписание (Чехов).txt;A_P_Chehov
+46;155;1462;7211;10;417;./data/A_P_Chehov\Приданое (Чехов).txt;A_P_Chehov
+8;24;188;894;0;51;./data/A_P_Chehov\Признательный немец (Чехов).txt;A_P_Chehov
+205;604;6536;32888;78;1945;./data/A_P_Chehov\Припадок (Чехов).txt;A_P_Chehov
+43;132;1055;5453;10;379;./data/A_P_Chehov\Произведение искусства (Чехов).txt;A_P_Chehov
+43;140;1744;8343;8;537;./data/A_P_Chehov\Происшествие (Чехов).txt;A_P_Chehov
+55;210;1269;6047;29;450;./data/A_P_Chehov\Пропащее дело (Чехов).txt;A_P_Chehov
+21;81;608;2998;3;187;./data/A_P_Chehov\Протекция (Чехов).txt;A_P_Chehov
+14;22;225;1075;1;76;./data/A_P_Chehov\Прощение (Чехов).txt;A_P_Chehov
+28;145;1087;5349;17;380;./data/A_P_Chehov\Психопаты (Чехов).txt;A_P_Chehov
+64;238;2913;15082;18;801;./data/A_P_Chehov\Пустой случай (Чехов).txt;A_P_Chehov
+68;209;1590;7883;26;562;./data/A_P_Chehov\Пьяные (Чехов).txt;A_P_Chehov
+31;83;470;2552;9;161;./data/A_P_Chehov\Радость (Чехов).txt;A_P_Chehov
+45;158;985;5124;19;335;./data/A_P_Chehov\Раз в год (Чехов).txt;A_P_Chehov
+24;122;543;2562;25;224;./data/A_P_Chehov\Разговор человека с собакой (Чехов).txt;A_P_Chehov
+28;87;476;2288;11;164;./data/A_P_Chehov\Размазня (Чехов).txt;A_P_Chehov
+45;152;1391;6999;9;437;./data/A_P_Chehov\Рано! (Чехов).txt;A_P_Chehov
+82;269;2432;12188;31;740;./data/A_P_Chehov\Рассказ без конца (Чехов).txt;A_P_Chehov
+38;96;1323;6152;4;343;./data/A_P_Chehov\Рассказ госпожи NN (Чехов).txt;A_P_Chehov
+26;107;1514;7786;4;375;./data/A_P_Chehov\Рассказ старшего садовника (Чехов).txt;A_P_Chehov
+9;51;378;2176;3;144;./data/A_P_Chehov\Рассказ, которому трудно подобрать название (Чехов).txt;A_P_Chehov
+17;70;474;2503;1;173;./data/A_P_Chehov\Ревнитель (Чехов).txt;A_P_Chehov
+1;7;78;545;0;16;./data/A_P_Chehov\Реклама (Чехов).txt;A_P_Chehov
+10;46;188;1106;1;84;./data/A_P_Chehov\Рекламы и объявления (Чехов).txt;A_P_Chehov
+39;125;729;3722;21;292;./data/A_P_Chehov\Репетитор (Чехов).txt;A_P_Chehov
+6;16;121;610;0;34;./data/A_P_Chehov\Репка (Чехов).txt;A_P_Chehov
+13;68;393;1970;7;150;./data/A_P_Chehov\Речь и ремешок (Чехов).txt;A_P_Chehov
+31;110;1001;5006;14;316;./data/A_P_Chehov\Розовый чулок (Чехов).txt;A_P_Chehov
+1;1;15;81;0;3;./data/A_P_Chehov\Роман (Чехов).txt;A_P_Chehov
+1;18;146;791;0;47;./data/A_P_Chehov\Роман адвоката (Чехов).txt;A_P_Chehov
+65;185;1580;8057;16;493;./data/A_P_Chehov\Роман с контрабасом (Чехов).txt;A_P_Chehov
+5;93;1098;6151;1;294;./data/A_P_Chehov\Руководство для желающих жениться (Чехов).txt;A_P_Chehov
+23;114;1201;6062;14;303;./data/A_P_Chehov\Русский уголь (Чехов).txt;A_P_Chehov
+23;81;775;4098;5;229;./data/A_P_Chehov\Рыбье дело (Чехов).txt;A_P_Chehov
+19;69;680;3309;7;180;./data/A_P_Chehov\Рыбья любовь (Чехов).txt;A_P_Chehov
+16;109;652;3404;6;251;./data/A_P_Chehov\Рыцари без страха и упрёка (Чехов).txt;A_P_Chehov
+17;75;468;2338;7;164;./data/A_P_Chehov\Ряженые (Чехов, 1883).txt;A_P_Chehov
+11;74;728;3810;3;224;./data/A_P_Chehov\Ряженые (Чехов, 1885).txt;A_P_Chehov
+15;51;296;1460;0;103;./data/A_P_Chehov\С женой поссорился (Чехов).txt;A_P_Chehov
+60;177;966;4923;11;364;./data/A_P_Chehov\Салон де варьете (Чехов).txt;A_P_Chehov
+16;51;369;1834;1;115;./data/A_P_Chehov\Самообольщение (Чехов).txt;A_P_Chehov
+11;24;167;869;3;57;./data/A_P_Chehov\Самый большой город (Чехов).txt;A_P_Chehov
+48;153;1109;5515;27;396;./data/A_P_Chehov\Сапоги (Чехов).txt;A_P_Chehov
+66;201;2014;9546;19;530;./data/A_P_Chehov\Сапожник и нечистая сила (Чехов).txt;A_P_Chehov
+44;147;1023;5037;4;318;./data/A_P_Chehov\Сборник для детей (Чехов).txt;A_P_Chehov
+60;185;1580;8443;17;545;./data/A_P_Chehov\Свадьба (рассказ, Чехов).txt;A_P_Chehov
+51;207;1518;8143;16;529;./data/A_P_Chehov\Свадьба с генералом (Чехов).txt;A_P_Chehov
+29;105;814;4193;6;257;./data/A_P_Chehov\Светлая личность (Чехов).txt;A_P_Chehov
+67;226;2295;11106;19;717;./data/A_P_Chehov\Свирель (Чехов).txt;A_P_Chehov
+38;177;1003;5093;24;394;./data/A_P_Chehov\Свистуны (Чехов).txt;A_P_Chehov
+67;227;1416;6796;28;541;./data/A_P_Chehov\Святая простота (Чехов).txt;A_P_Chehov
+88;309;3134;16144;24;882;./data/A_P_Chehov\Святою ночью (Чехов).txt;A_P_Chehov
+110;258;1331;6774;43;541;./data/A_P_Chehov\Сельские эскулапы (Чехов).txt;A_P_Chehov
+44;138;1089;5559;8;362;./data/A_P_Chehov\Серьёзный шаг (Чехов).txt;A_P_Chehov
+33;117;1526;7390;8;404;./data/A_P_Chehov\Сильные ощущения (Чехов).txt;A_P_Chehov
+21;101;984;5080;6;302;./data/A_P_Chehov\Симулянты (Чехов).txt;A_P_Chehov
+43;125;1503;7943;7;490;./data/A_P_Chehov\Сирена (Чехов).txt;A_P_Chehov
+10;18;130;654;3;42;./data/A_P_Chehov\Сказка (Чехов).txt;A_P_Chehov
+106;385;2513;12686;37;881;./data/A_P_Chehov\Скверная история (Чехов).txt;A_P_Chehov
+62;216;1332;6864;31;534;./data/A_P_Chehov\Скорая помощь (Чехов).txt;A_P_Chehov
+67;237;3020;14556;17;773;./data/A_P_Chehov\Скрипка Ротшильда (Чехов).txt;A_P_Chehov
+122;416;3967;20332;43;1071;./data/A_P_Chehov\Скука жизни (Чехов).txt;A_P_Chehov
+428;1406;18094;90544;139;4604;./data/A_P_Chehov\Скучная история (Чехов).txt;A_P_Chehov
+57;148;1385;6890;11;414;./data/A_P_Chehov\Следователь (Чехов).txt;A_P_Chehov
+23;105;689;3493;11;226;./data/A_P_Chehov\Слова, слова и слова (Чехов).txt;A_P_Chehov
+9;9;115;669;0;20;./data/A_P_Chehov\Словотолкователь для «барышень» (Чехов).txt;A_P_Chehov
+10;29;313;1666;2;88;./data/A_P_Chehov\Служебные пометки (Чехов).txt;A_P_Chehov
+8;27;297;1575;2;85;./data/A_P_Chehov\Случаи mania grandiosa (Чехов).txt;A_P_Chehov
+93;239;3227;16070;19;977;./data/A_P_Chehov\Случай из практики (Чехов).txt;A_P_Chehov
+15;83;651;3576;5;181;./data/A_P_Chehov\Случай из судебной практики (Чехов).txt;A_P_Chehov
+27;121;773;3777;22;293;./data/A_P_Chehov\Случай с классиком (Чехов).txt;A_P_Chehov
+30;98;677;3535;5;269;./data/A_P_Chehov\Смерть чиновника (Чехов).txt;A_P_Chehov
+54;145;1407;7214;7;387;./data/A_P_Chehov\Событие (Чехов).txt;A_P_Chehov
+15;84;378;1878;7;155;./data/A_P_Chehov\Совет (Чехов).txt;A_P_Chehov
+11;59;328;1767;5;125;./data/A_P_Chehov\Современные молитвы (Чехов).txt;A_P_Chehov
+43;165;1488;7505;11;434;./data/A_P_Chehov\Сон (Чехов).txt;A_P_Chehov
+31;111;743;3860;7;260;./data/A_P_Chehov\Сон репортёра (Чехов).txt;A_P_Chehov
+19;105;1113;5708;4;365;./data/A_P_Chehov\Сонная одурь (Чехов).txt;A_P_Chehov
+120;460;5749;28408;28;1544;./data/A_P_Chehov\Соседи (Чехов).txt;A_P_Chehov
+60;166;1565;7835;12;465;./data/A_P_Chehov\Спать хочется (Чехов).txt;A_P_Chehov
+15;20;173;1106;0;73;./data/A_P_Chehov\Список лиц, имеющих право на бесплатный проезд по русским железным дорогам (Чехов).txt;A_P_Chehov
+1;19;134;853;0;52;./data/A_P_Chehov\Список экспонентов, удостоенных чугунных медалей по русскому отделу на выставке в Амстердаме (Чехов).txt;A_P_Chehov
+30;75;634;3291;10;182;./data/A_P_Chehov\Справка (Чехов).txt;A_P_Chehov
+57;197;1534;7856;28;527;./data/A_P_Chehov\Средство от запоя (Чехов).txt;A_P_Chehov
+25;180;1350;6391;23;480;./data/A_P_Chehov\Староста (Чехов).txt;A_P_Chehov
+45;186;1406;6984;26;506;./data/A_P_Chehov\Старость (Чехов).txt;A_P_Chehov
+32;145;1774;8667;6;438;./data/A_P_Chehov\Старый дом (Чехов).txt;A_P_Chehov
+14;36;395;2153;1;123;./data/A_P_Chehov\Статистика (Чехов).txt;A_P_Chehov
+23;79;636;3136;7;249;./data/A_P_Chehov\Стена (Чехов).txt;A_P_Chehov
+64;202;1467;7489;29;515;./data/A_P_Chehov\Страдальцы (Чехов).txt;A_P_Chehov
+37;163;1161;5570;24;361;./data/A_P_Chehov\Стража под стражей (Чехов).txt;A_P_Chehov
+86;283;3874;18326;19;968;./data/A_P_Chehov\Страх (Чехов).txt;A_P_Chehov
+50;150;1696;8467;13;423;./data/A_P_Chehov\Страхи (Чехов).txt;A_P_Chehov
+49;171;1835;9109;21;501;./data/A_P_Chehov\Страшная ночь (Чехов).txt;A_P_Chehov
+20;68;1124;5598;2;320;./data/A_P_Chehov\Студент (Чехов).txt;A_P_Chehov
+60;196;1063;5410;27;420;./data/A_P_Chehov\Суд (Чехов).txt;A_P_Chehov
+55;149;1989;9533;14;533;./data/A_P_Chehov\Супруга (Чехов).txt;A_P_Chehov
+18;65;505;2402;6;143;./data/A_P_Chehov\Сущая правда (Чехов).txt;A_P_Chehov
+64;218;1303;6619;29;474;./data/A_P_Chehov\Счастливчик (Чехов).txt;A_P_Chehov
+74;232;2785;13905;17;816;./data/A_P_Chehov\Счастье (Чехов).txt;A_P_Chehov
+4;22;224;1376;0;65;./data/A_P_Chehov\Съезд естествоиспытателей в Филадельфии (Чехов).txt;A_P_Chehov
+15;60;290;1557;9;127;./data/A_P_Chehov\Тёмною ночью (Чехов).txt;A_P_Chehov
+26;107;619;2719;17;217;./data/A_P_Chehov\Тёща-адвокат (Чехов).txt;A_P_Chehov
+49;129;1123;6200;17;368;./data/A_P_Chehov\Тайна (Чехов).txt;A_P_Chehov
+58;269;1689;8383;12;511;./data/A_P_Chehov\Тайны ста сорока четырех катастроф, или Русский Рокамболь (Чехов).txt;A_P_Chehov
+118;457;5215;26188;37;1310;./data/A_P_Chehov\Тайный советник (Чехов).txt;A_P_Chehov
+39;130;1211;6214;12;363;./data/A_P_Chehov\Талант (Чехов).txt;A_P_Chehov
+30;190;1416;7024;22;524;./data/A_P_Chehov\Тапёр (Чехов).txt;A_P_Chehov
+49;138;1083;5147;22;386;./data/A_P_Chehov\Темнота (Чехов).txt;A_P_Chehov
+9;118;1001;5679;0;295;./data/A_P_Chehov\Темпераменты (Чехов).txt;A_P_Chehov
+157;555;5153;25926;59;1554;./data/A_P_Chehov\Тина (Чехов).txt;A_P_Chehov
+61;173;1841;9228;12;542;./data/A_P_Chehov\Тиф (Чехов).txt;A_P_Chehov
+39;119;1250;6266;12;389;./data/A_P_Chehov\То была она! (Чехов).txt;A_P_Chehov
+17;87;511;2725;13;193;./data/A_P_Chehov\Толстый и тонкий (Чехов).txt;A_P_Chehov
+30;132;884;4495;6;311;./data/A_P_Chehov\Торжество победителя (Чехов).txt;A_P_Chehov
+5;30;423;2212;1;94;./data/A_P_Chehov\Тост прозаиков (Чехов).txt;A_P_Chehov
+36;110;1041;5322;2;295;./data/A_P_Chehov\Трагик (Чехов).txt;A_P_Chehov
+696;2049;26893;131249;159;7254;./data/A_P_Chehov\Три года (Чехов).txt;A_P_Chehov
+42;149;1044;4969;13;366;./data/A_P_Chehov\Трифон (Чехов).txt;A_P_Chehov
+56;226;1840;9536;26;620;./data/A_P_Chehov\Тряпка (Чехов).txt;A_P_Chehov
+30;86;827;4409;4;278;./data/A_P_Chehov\Тссс! (Чехов).txt;A_P_Chehov
+64;195;1357;6693;36;532;./data/A_P_Chehov\Ты и вы (Чехов).txt;A_P_Chehov
+19;163;938;4826;7;262;./data/A_P_Chehov\Тысяча одна страсть, или Страшная ночь (Чехов).txt;A_P_Chehov
+77;238;2229;10988;12;636;./data/A_P_Chehov\Тяжёлые люди (Чехов).txt;A_P_Chehov
+6;42;496;2271;1;146;./data/A_P_Chehov\У Зелениных (Чехов).txt;A_P_Chehov
+128;363;5432;26170;23;1537;./data/A_P_Chehov\У знакомых (Чехов).txt;A_P_Chehov
+7;22;121;618;0;46;./data/A_P_Chehov\У постели больного (Чехов).txt;A_P_Chehov
+22;96;1051;5749;1;281;./data/A_P_Chehov\У предводительши (Чехов).txt;A_P_Chehov
+50;121;505;2523;27;274;./data/A_P_Chehov\У телефона (Чехов).txt;A_P_Chehov
+149;552;9171;44323;29;2268;./data/A_P_Chehov\Убийство (Чехов).txt;A_P_Chehov
+3;11;131;669;2;34;./data/A_P_Chehov\Угроза (Чехов).txt;A_P_Chehov
+39;138;1163;5539;13;367;./data/A_P_Chehov\Удав и кролик (Чехов).txt;A_P_Chehov
+25;85;631;3121;16;210;./data/A_P_Chehov\Умный дворник (Чехов).txt;A_P_Chehov
+23;142;1188;6009;35;405;./data/A_P_Chehov\Унтер Пришибеев (Чехов).txt;A_P_Chehov
+57;215;1497;7476;35;508;./data/A_P_Chehov\Упразднили! (Чехов).txt;A_P_Chehov
+35;113;1119;5479;12;296;./data/A_P_Chehov\Устрицы (Чехов).txt;A_P_Chehov
+39;129;907;4752;9;297;./data/A_P_Chehov\Утопленник (Чехов).txt;A_P_Chehov
+53;201;1994;10471;15;590;./data/A_P_Chehov\Учитель (Чехов).txt;A_P_Chehov
+209;552;6995;34711;36;1852;./data/A_P_Chehov\Учитель словесности (Чехов).txt;A_P_Chehov
+21;81;397;1930;14;142;./data/A_P_Chehov\Ушла (Чехов).txt;A_P_Chehov
+22;72;461;2436;7;164;./data/A_P_Chehov\Филантроп (Чехов).txt;A_P_Chehov
+9;25;193;1053;0;75;./data/A_P_Chehov\Философские определения жизни (Чехов).txt;A_P_Chehov
+11;16;193;1074;2;62;./data/A_P_Chehov\Финтифлюшки (Чехов).txt;A_P_Chehov
+34;148;947;4760;7;379;./data/A_P_Chehov\Хирургия (Чехов).txt;A_P_Chehov
+17;144;696;3439;15;274;./data/A_P_Chehov\Хитрец (Чехов).txt;A_P_Chehov
+142;468;5067;26095;39;1373;./data/A_P_Chehov\Холодная кровь (Чехов).txt;A_P_Chehov
+60;189;1576;7561;22;505;./data/A_P_Chehov\Хористка (Чехов).txt;A_P_Chehov
+79;261;3111;16088;27;832;./data/A_P_Chehov\Хорошие люди (Чехов).txt;A_P_Chehov
+47;122;1134;5779;16;354;./data/A_P_Chehov\Хороший конец (Чехов).txt;A_P_Chehov
+43;170;1518;7911;10;442;./data/A_P_Chehov\Художество (Чехов).txt;A_P_Chehov
+420;1369;11416;59228;133;3344;./data/A_P_Chehov\Цветы запоздалые (Чехов).txt;A_P_Chehov
+31;170;1073;5540;15;428;./data/A_P_Chehov\Циник (Чехов).txt;A_P_Chehov
+220;756;9682;47420;70;2619;./data/A_P_Chehov\Чёрный монах (Чехов).txt;A_P_Chehov
+5;18;181;911;2;54;./data/A_P_Chehov\Человек (Чехов).txt;A_P_Chehov
+93;285;4007;19499;28;1164;./data/A_P_Chehov\Человек в футляре (Чехов).txt;A_P_Chehov
+42;135;929;4935;5;318;./data/A_P_Chehov\Чтение (Чехов).txt;A_P_Chehov
+8;15;120;666;1;41;./data/A_P_Chehov\Что лучше (Чехов).txt;A_P_Chehov
+17;22;214;1303;0;63;./data/A_P_Chehov\Что чаще всего встречается в романах, повестях и т. п. (Чехов).txt;A_P_Chehov
+48;154;1471;7774;18;418;./data/A_P_Chehov\Чужая беда (Чехов).txt;A_P_Chehov
+8;15;239;1269;0;69;./data/A_P_Chehov\Шампанское (Чехов, 1885).txt;A_P_Chehov
+40;135;1675;8227;16;429;./data/A_P_Chehov\Шампанское (Чехов, 1887).txt;A_P_Chehov
+235;852;5276;26799;99;1868;./data/A_P_Chehov\Шведская спичка (Чехов).txt;A_P_Chehov
+27;175;1253;5809;17;464;./data/A_P_Chehov\Шило в мешке (Чехов).txt;A_P_Chehov
+2;13;259;1232;3;59;./data/A_P_Chehov\Шульц (Чехов).txt;A_P_Chehov
+37;114;1246;5779;12;365;./data/A_P_Chehov\Шуточка (Чехов).txt;A_P_Chehov
+27;42;232;1161;12;92;./data/A_P_Chehov\Экзамен (Чехов).txt;A_P_Chehov
+37;114;898;5008;14;292;./data/A_P_Chehov\Экзамен на чин (Чехов).txt;A_P_Chehov
+41;164;1689;9184;10;526;./data/A_P_Chehov\Юбилей (рассказ, Чехов).txt;A_P_Chehov
+9;39;283;1559;3;84;./data/A_P_Chehov\Юристка (Чехов).txt;A_P_Chehov
+8;47;239;1271;2;82;./data/A_P_Chehov\Ядовитый случай (Чехов).txt;A_P_Chehov
+25;88;305;1336;8;200;./data/A_P_Chehov\Язык до Киева доведёт (Чехов).txt;A_P_Chehov
+44;198;1611;8886;8;482;./data/A_P_Chehov\Ярмарка (Чехов).txt;A_P_Chehov
+19;47;312;1677;0;77;./data/A_P_Chehov\Ярмарочное итого (Чехов).txt;A_P_Chehov
