@@ -14,7 +14,7 @@ def cross_validate_accuracy(X_train, y_train, use_svd=False, c=1):
     n_splits = 10
     cv_strategy = RepeatedStratifiedKFold(n_splits=n_splits, n_repeats=2, random_state=42)
     cvs = cross_validate(model, X_train, y_train, cv=cv_strategy,
-                         scoring=['accuracy','precision_macro','precision_weighted'])
+                         scoring=['accuracy', 'precision_macro', 'precision_weighted'])
     cv_scores = cvs['test_precision_macro']
 
     return cv_scores
@@ -55,14 +55,16 @@ def save_test_report_to_tex(y_test, y_predicted, file):
     s = """
     \\begin{tabular}{ | c | c | c | c | }
 	\hline
-	 & presision & recall & count \\\\ \hline
-	class1 & %0.2f & %0.2f & %0.0f \\\\ \hline
-	class2 & %0.2f & %0.2f & %0.0f  \\\\ \hline
+	         &presision & recall & count \\\\ \hline
+	class1   & %0.2f    & %0.2f  & %0.0f \\\\ \hline
+	class2   & %0.2f    & %0.2f  & %0.0f \\\\ \hline
+	average  & %0.2f    &        &       \\\\
 	\hline
-	accuracy & \multicolumn{3}{c|}{%0.2f} \\\\
+	accuracy & \multicolumn{3}{c|}{%0.2f}\\\\
 	\hline
     \end{tabular}""" % (report["1"]["precision"], report["1"]["recall"], report["1"]["support"],
                         report["-1"]["precision"], report["-1"]["recall"], report["-1"]["support"],
+                        (report["-1"]["precision"] + report["1"]["precision"]) / 2,
                         report["accuracy"])
     with open(file, "w+") as f:
         f.writelines(s)
