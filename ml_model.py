@@ -94,28 +94,27 @@ class Model(BaseEstimator):
 
     def transform_features(self, x):
         x = x - self.x_mean
+        x = x / self.x_std
         if self.use_svd:
             return np.matmul(x, self.transformation_matrix)
         else:
-            return x / self.x_std
+            return x
 
     def reverse_transform(self, x):
         if self.use_svd:
-            x = np.matmul(x, self.transformation_matrix)
-        else:
-            x = x * self.x_std
+            raise NotImplemented("Can't really do this")
+        x = x * self.x_std
         return x + self.x_mean
 
     def fit(self, x, y, verbose=False):
         self.x_mean = x.mean(axis=0)
+        self.x_std = x.std(axis=0)
         if self.use_svd:
-            u, s, vh = np.linalg.svd((x - self.x_mean).transpose(), full_matrices=True)
+            u, s, vh = np.linalg.svd(((x - self.x_mean) / self.x_std).transpose(), full_matrices=True)
             self.transformation_matrix = u[:, 0:2]
             if verbose:
                 print("Transformation_matrix is:")
                 print(self.transformation_matrix)
-        else:
-            self.x_std = x.std(axis=0)
 
         x = self.transform_features(x)
 
