@@ -77,7 +77,7 @@ colorlinks,  % цветные гиперссылки
 \DeclareMathOperator*{\argmin}{argmin}
 \DeclareMathOperator*{\argmax}{argmax}
 
-
+\usepackage{afterpage}
 \usepackage{amsthm}
 
 \begin{document}
@@ -399,8 +399,7 @@ $$\min_{\vec{x} \in X^n} M_{\vec{w}',b'}(\vec{x}) = 1 $$
 	\label{fig:example2}
 \end{figure}
 Применим построенный алгоритм и оценим резултаты.
-\subsection{Оценка результатов работы алгоритма}
-Для применения построенного алгоритма были собраны 669 рассказов А. П. Чехова и А. И Куприна. И посчитаны некоторые численные характеристики каждого из рассказов.
+
 \begin{figure}
 	\centering		
 	\input{fig/letters_count_words_count_0.pgf}
@@ -419,131 +418,169 @@ $$\min_{\vec{x} \in X^n} M_{\vec{w}',b'}(\vec{x}) = 1 $$
 	\caption{Диаграмма рассеяния по средней длине слова и средней длине предложения }
 	\label{fig:scatter_3}
 \end{figure}
-
 \begin{figure}
 	\centering		
 	\input{fig/letters_count_total_punctuation_signs_0.pgf}
 	\caption{Диаграмма рассеяния по количеству букв и количеству знаков препинания }
 	\label{fig:scatter_4}
 \end{figure}
+\newpage
+\subsection{Оценка результатов работы алгоритма}
+Для применения построенного алгоритма были собраны 669 рассказов А. П. Чехова и А. И Куприна. И посчитаны некоторые численные характеристики каждого из рассказов.
 Для оценки результатов, все рассказазы разбиты на обучающую и тестовые выборки.
 Построив диаграммы рассеяния рисунки \ref{fig:scatter_1},\ref{fig:scatter_2},\ref{fig:scatter_3},\ref{fig:scatter_4} по некоторым признакам, было решено провести обучение на некоторых парах признаков.
 Рисунки \ref{fig:learn_1},\ref{fig:learn_2},\ref{fig:learn_3},\ref{fig:learn_4} демонстрируют построенные разделяющие прямые. 
 Таблицы \ref{table:learn_1_tr},\ref{table:learn_2_tr},\ref{table:learn_3_tr},\ref{table:learn_4_tr} демонстрируют точность классификации на тестовой выборке при $C=1$.
 Таблицы \ref{table:learn_1_cv_tr},\ref{table:learn_2_cv_tr},\ref{table:learn_3_cv_tr},\ref{table:learn_4_cv_tr} демонстрируют точность классификации на тестовой выборке при использовании скользящего контроля для выбора $C$.
-\begin{figure}
+\newpage
+\begin{center}
+\begin{table}{}
+	\centering
+	\caption{Результаты работы алгоритма для признаков: количество букв, количество слов, число слов.$C$= 1}
+	\input{tables/test_report_letters_count_words_count}
+	\label{table:learn_1_tr}
+\end{table}		
+\begin{figure}[t!]
 	\centering		
 	\input{fig/letters_count_words_count_4.pgf}
 	\caption{Диаграмма рассеяния по количеству букв и количеству слов и разделяющая прямая}
 	\label{fig:learn_1}
 \end{figure}
-\begin{figure}
-	\centering		
-	\input{fig/sentences_count_words_count_4.pgf}
-	\caption{Диаграмма рассеяния по количеству слов и количеству предложений и разделяющая прямая}
-	\label{fig:learn_2}
-\end{figure}
-\begin{figure}
-	\centering		
-	\input{fig/avg_word_length_avg_sentence_length_4.pgf}
-	\caption{Диаграмма рассеяния по средней длине слова и средней длине предложения и разделяющая прямая}
-	\label{fig:learn_3}
-\end{figure}
-
-\begin{figure}
-	\centering		
-	\input{fig/letters_count_total_punctuation_signs_4.pgf}
-	\caption{Диаграмма рассеяния по количеству букв и количеству знаков препинания и разделяющая прямая}
-	\label{fig:learn_4}
-\end{figure}
-
-\begin{table}{}
-	\centering
-	\caption{Результаты работы алгоритма для признаков: количество символов, количество слов, число слов.$C$= 1}
-	\input{tables/test_report_letters_count_words_count}
-	\label{table:learn_1_tr}
-\end{table}	
-\begin{table}{}
-	\centering	
-	\caption{Результаты работы алгоритма для признаков: количество символов, количество слов. $C$ выбрано используя скользящий контроль}
-	\input{tables/test_report_CVletters_count_words_count}
-	\label{table:learn_1_cv_tr}
-\end{table}
-
+\end{center}
+\newpage
+\begin{center}
 \begin{table}{}
 	\centering	
 	\caption{Результаты работы алгоритма для признаков: количество предложений, количество слов.$C$= 1}
 	\input{tables/test_report_sentences_count_words_count}
 	\label{table:learn_2_tr}
 \end{table}		
-\begin{table}{}
-	\centering
-	\caption{Результаты работы алгоритма для признаков: количество предложений, количество слов. $C$ выбрано используя скользящий контроль}	
-	\input{tables/test_report_CVsentences_count_words_count}
-	\label{table:learn_2_cv_tr}
-\end{table}
-
-
+\begin{figure}[t!]
+	\centering		
+	\input{fig/sentences_count_words_count_4.pgf}
+	\caption{Диаграмма рассеяния по количеству слов и количеству предложений и разделяющая прямая}
+	\label{fig:learn_2}
+\end{figure}
+\end{center}
+\newpage
+\begin{center}
 \begin{table}{}
 	\centering
 	\caption{Результаты работы алгоритма для признаков: средняя длина слова, средня длина предложения. $C$= 1}
 	\input{tables/test_report_avg_word_length_avg_sentence_length}
 	\label{table:learn_3_tr}	
-\end{table}
-
+\end{table}		
+\begin{figure}[t!]
+	\centering		
+	\input{fig/avg_word_length_avg_sentence_length_4.pgf}
+	\caption{Диаграмма рассеяния по средней длине слова и средней длине предложения и разделяющая прямая}
+	\label{fig:learn_3}
+\end{figure}
+\end{center}
+\newpage
+\begin{center}
+	\begin{table}[h!]{}
+		\centering
+		\caption{Результаты работы алгоритма для признаков: количество букв, количество знаков пунктуации. $C$= 1}	
+		\input{tables/test_report_letters_count_total_punctuation_signs}		
+		\label{table:learn_4_tr}
+	\end{table}
+	\begin{figure}[t!]
+		\centering		
+		\input{fig/letters_count_total_punctuation_signs_4.pgf}
+		\caption{Диаграмма рассеяния по количеству букв и количеству знаков препинания и разделяющая прямая}
+		\label{fig:learn_4}
+	\end{figure}
+\end{center}
+\newpage
+\begin{center}
+	\begin{table}[h!]{}
+		\centering	
+		\caption{Результаты работы алгоритма для признаков: количество букв, количество слов. $C$ выбрано используя скользящий контроль}
+		\input{tables/test_report_CVletters_count_words_count}
+		\label{table:learn_1_cv_tr}
+	\end{table}
+	\begin{figure}[t!]
+		\centering		
+		\input{fig/choosing_C_letters_count_words_count_4.pgf}
+		\caption{Диаграмма рассеяния по количеству букв и количеству слов и разделяющая прямая. $C$ выбрано используя скользящий контроль}
+		\label{fig:learn_1_cv}
+	\end{figure}
+\end{center}
+\newpage
+\begin{center}
 \begin{table}{}
 	\centering
-	\caption{Результаты работы алгоритма для признаков: средня длина слова, средня длина предложения. $C$ выбрано используя скользящий контроль}
-	\input{tables/test_report_CVavg_word_length_avg_sentence_length}
-	\label{table:learn_3_cv_tr}	
-\end{table}
-
-
-\begin{table}{}
-	\centering
-	\caption{Результаты работы алгоритма для признаков: количество символов, количество знаков пунктуации. $C$= 1}	
-	\input{tables/test_report_letters_count_total_punctuation_signs}		
-	\label{table:learn_4_tr}
-\end{table}
-\begin{table}{}
-	\centering	
-	\caption{Результаты работы алгоритма для признаков: количество знаков пунктуации. $C$ выбрано используя скользящий контроль}	
-	\input{tables/test_report_CVletters_count_total_punctuation_signs}	
-	\label{table:learn_4_cv_tr}
-\end{table}
-
+	\caption{Результаты работы алгоритма для признаков: количество предложений, количество слов. $C$ выбрано используя скользящий контроль}	
+	\input{tables/test_report_CVsentences_count_words_count}
+	\label{table:learn_2_cv_tr}
+\end{table}	
+\begin{figure}[t!]
+	\centering		
+	\input{fig/choosing_C_sentences_count_words_count_4.pgf}
+	\caption{Диаграмма рассеяния по количеству слов и количеству предложений и разделяющая прямая. $C$ выбрано используя скользящий контроль}
+	\label{fig:learn_2_cv}
+\end{figure}
+\end{center}
+\newpage
+\begin{center}
+	\begin{table}{}
+		\centering
+		\caption{Результаты работы алгоритма для признаков: средня длина слова, средня длина предложения. $C$ выбрано используя скользящий контроль}
+		\input{tables/test_report_CVavg_word_length_avg_sentence_length}
+		\label{table:learn_3_cv_tr}	
+	\end{table}		
+	\begin{figure}[t!]
+		\centering		
+		\input{fig/choosing_C_avg_word_length_avg_sentence_length_4.pgf}
+		\caption{Диаграмма рассеяния по средней длине слова и средней длине предложения и разделяющая прямая. $C$ выбрано используя скользящий контроль}
+		\label{fig:learn_3_cv}
+	\end{figure}
+\end{center}
+\newpage
+\begin{center}
+	\begin{table}{}
+		\centering	
+		\caption{Результаты работы алгоритма для признаков: количество букв количество знаков пунктуации. $C$ выбрано используя скользящий контроль}	
+		\input{tables/test_report_CVletters_count_total_punctuation_signs}	
+		\label{table:learn_4_cv_tr}
+	\end{table}
+	\begin{figure}[t!]
+		\centering		
+		\input{fig/choosing_C_letters_count_total_punctuation_signs_4.pgf}
+		\caption{Диаграмма рассеяния по количеству букв и количеству знаков препинания и разделяющая прямая. $C$ выбрано используя скользящий контроль }
+		\label{fig:learn_4_cv}
+	\end{figure}
+\end{center}
+\newpage
 \subsection{Метод главных компонент}
 Попробуем из $m$ признаков получить 2, которые лучше других описывают объекты обучающей выборки:
 для этого вычислим сингулярное разложение центрированной и транспонированной матрицы объектов обучающей выборки и построим проекции объектов обучающей выборки на сингулярные вектора соответствующие двум наибольшим сингулярным числам.\cite{ssa}
 Полученный на обучающей выборке вектор средних и матрицу проекции на сингулярные вектора используются при тестировании алгоритма: каждый тестовый объект смещается на вектор средних,и проекция строится используя ту же матрицу.
-
-\subsection{Оценка результатов работы модифицированного алгоритма}
-
-Рисунок \ref{fig:learn_5} и таблица \ref{table:learn_5_cv_tr} демонстрируют результаты работы алгоритма с предварительным построением двух признаков.
 \begin{figure}
 	\centering		
 	\input{fig/with_PCA_1.pgf}
 	\caption{Проекция на главные компоненты.}
 	\label{fig:scatter_5}
 \end{figure}
-\begin{figure}
-	\centering		
-	\input{fig/with_PCA_2.pgf}
-	\caption{Проекция на главные компоненты и разделяющая прямая}
-	\label{fig:learn_5}
-\end{figure}
-
-\begin{table}{}	
-	\centering
-	\caption{Результаты работы модифицированного алгоритма}	
-	\input{tables/test_report_svd}
-	\label{table:learn_5_cv_tr}
-\end{table}
-
-
+\subsection{Оценка результатов работы модифицированного алгоритма}
+\afterpage{
+	\begin{table}{}
+		\centering
+		\caption{Результаты работы модифицированного алгоритма}	
+		\input{tables/test_report_svd}
+		\label{table:learn_5_cv_tr}
+	\end{table}
+	\begin{figure}[t!]
+		\centering		
+		\input{fig/with_PCA_2.pgf}
+		\caption{Проекция на главные компоненты и разделяющая прямая}
+		\label{fig:learn_5}
+	\end{figure}
+}
+Рисунок \ref{fig:learn_5} и таблица \ref{table:learn_5_cv_tr} демонстрируют результаты работы алгоритма с предварительным построением двух признаков.
 \section{Заключение}
-В рамках работы мною изучены темы:
-\begin{itemize}
+В рамках работы мною изучены темы:\begin{itemize}
 	\item классификация, как задача машинного обучения;
 	\item метод оптимизации эмпирического риска;
 	\item линейные модели классификации;
