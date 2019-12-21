@@ -22,18 +22,18 @@ def cross_validate_accuracy(X_train, y_train, use_svd=False, c=1):
 
 def cross_validate_and_choose_c(X, y, use_svd=False, cs=None):
     if cs is None:
-        cs = [0.1, 1, 10, 100, 1000, 5000,10000]
+        cs = [0.1, 1, 10, 100, 1000, 5000, 10000]
 
     c = cs[0]
     best_c = c
     best_scores = cross_validate_accuracy(X, y, use_svd, c)
-    print("For c=%f minimal accuracy: %0.2f " % (c, best_scores.min()))
+    print("For c=%f minimal average class precision: %0.2f " % (c, best_scores.min()))
 
     scoress_dict = {}
     for c in cs[1:]:
         scores = cross_validate_accuracy(X, y, use_svd, c)
         scoress_dict[c] = scores
-        print("For c=%f minimal accuracy: %0.2f " % (c, scores.min()))
+        print("For c=%f minimal average class precision: %0.2f " % (c, scores.min()))
         if scores.min() > best_scores.min():
             best_scores = scores
             best_c = c
