@@ -78,17 +78,17 @@ def create_qp_solver(c: int, y_list, x_matrix):
 
 class Model(BaseEstimator):
     _estimator_type = "classifier"
-    w = {}
-    b = {}
+    w = None
+    b = None
     c = 1
     eps = 0.000001
     use_svd = False
     transformation_matrix = None
 
-    x_mean = {}
+    x_mean = None
+    x_std = None
 
     def __init__(self, c, use_svd=False):
-        assert c != 0
         self.c = c
         self.use_svd = use_svd
 
@@ -97,21 +97,25 @@ class Model(BaseEstimator):
         if self.use_svd:
             return np.matmul(x, self.transformation_matrix)
         else:
-            return x
+            return x / self.x_std
 
     def reverse_transform(self, x):
         if self.use_svd:
             x = np.matmul(x, self.transformation_matrix)
+        else:
+            x = x * self.x_std
         return x + self.x_mean
 
     def fit(self, x, y, verbose=False):
         self.x_mean = x.mean(axis=0)
         if self.use_svd:
-            u, s, vh = np.linalg.svd(x.transpose(), full_matrices=True)
+            u, s, vh = np.linalg.svd((x - self.x_mean).transpose(), full_matrices=True)
             self.transformation_matrix = u[:, 0:2]
             if verbose:
                 print("Transformation_matrix is:")
                 print(self.transformation_matrix)
+        else:
+            self.x_std = x.std(axis=0)
 
         x = self.transform_features(x)
 
@@ -164,7 +168,3 @@ class Model(BaseEstimator):
 
     def predict(self, xs):
         return [self.predict_one(x) for x in xs]
-
-    def get_params(self, deep=True):
-        return {"c": self.c,
-                "use_svd": self.use_svd}

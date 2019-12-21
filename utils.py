@@ -22,7 +22,7 @@ def cross_validate_accuracy(X_train, y_train, use_svd=False, c=1):
 
 def cross_validate_and_choose_c(X, y, use_svd=False, cs=None):
     if cs is None:
-        cs = [0.01, 0.1, 1, 10, 100, 1000]
+        cs = [0.1, 1, 10, 100, 1000, 5000,10000]
 
     c = cs[0]
     best_c = c
